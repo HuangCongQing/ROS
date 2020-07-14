@@ -1,6 +1,7 @@
 # ROS
 机器人操作系统
 
+* 运行环境：Ubuntu18.4 微软云服务器（AzureUser@aitraining）
 
 
 * ROS & SLAM：https://www.yuque.com/huangzhongqing/ld627o
