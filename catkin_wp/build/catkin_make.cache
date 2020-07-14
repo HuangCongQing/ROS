@@ -1,2 +1,2 @@
-
+test_pkg
 -DCATKIN_DEVEL_PREFIX=/home/AzureUser/hcq/ROS/catkin_wp/devel -DCMAKE_INSTALL_PREFIX=/home/AzureUser/hcq/ROS/catkin_wp/install -G Unix Makefiles
