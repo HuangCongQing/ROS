@@ -1,0 +1,9 @@
+/home/AzureUser/hcq/ROS/catkin_wp/install/_setup_util.py
+/home/AzureUser/hcq/ROS/catkin_wp/install/env.sh
+/home/AzureUser/hcq/ROS/catkin_wp/install/setup.bash
+/home/AzureUser/hcq/ROS/catkin_wp/install/local_setup.bash
+/home/AzureUser/hcq/ROS/catkin_wp/install/setup.sh
+/home/AzureUser/hcq/ROS/catkin_wp/install/local_setup.sh
+/home/AzureUser/hcq/ROS/catkin_wp/install/setup.zsh
+/home/AzureUser/hcq/ROS/catkin_wp/install/local_setup.zsh
+/home/AzureUser/hcq/ROS/catkin_wp/install/.rosinstall
