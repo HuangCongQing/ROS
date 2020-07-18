@@ -13,6 +13,7 @@ int main(int argc, char **argv)
 {
 	// ROS节点初始化
 	ros::init(argc, argv, "velocity_publisher");
+    // ros:: 代表使用的四ROS库里面的函数
 
 	// 创建节点句柄（管理节点资源）
 	ros::NodeHandle n;
@@ -23,7 +24,8 @@ int main(int argc, char **argv)
 	// 设置循环的频率
 	ros::Rate loop_rate(10);
 
-	int count = 0;
+	int count = 0;// 没使用？
+    // 封装数据 发布数据
 	while (ros::ok())
 	{
 	    // 初始化geometry_msgs::Twist类型的消息
@@ -35,6 +37,7 @@ int main(int argc, char **argv)
 		turtle_vel_pub.publish(vel_msg);
 		ROS_INFO("Publsh turtle velocity command[%0.2f m/s, %0.2f rad/s]", 
 				vel_msg.linear.x, vel_msg.angular.z);
+        // ROS_INFO 类似于printf
 
 	    // 按照循环频率延时
 	    loop_rate.sleep();
