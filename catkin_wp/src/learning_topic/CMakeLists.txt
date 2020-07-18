@@ -154,7 +154,7 @@ include_directories(
 
 # 解释add_executable(${PROJECT_NAME}_node src/learning_topic_node.cpp)
 add_executable(velocity_publisher src/velocity_publisher.cpp)
-# add_executable(velocity_publisher script/velocity_publisher.py) python文件
+# add_executable(velocity_publisher script/velocity_publisher.py) python文件不需要编译
 
 # 可执行文件和ROS库进行连接的
 # target_link_libraries(${PROJECT_NAME}_node${catkin_LIBRARIES} )
