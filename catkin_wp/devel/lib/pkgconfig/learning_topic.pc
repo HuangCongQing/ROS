@@ -1,0 +1,8 @@
+prefix=/home/AzureUser/hcq/ROS/catkin_wp/devel
+
+Name: learning_topic
+Description: Description of learning_topic
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -132,6 +132,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/AzureUser/hcq/ROS/catkin_wp/build/gtest/cmake_install.cmake")
   include("/home/AzureUser/hcq/ROS/catkin_wp/build/test_pkg/cmake_install.cmake")
+  include("/home/AzureUser/hcq/ROS/catkin_wp/build/learning_topic/cmake_install.cmake")
 
 endif()
 

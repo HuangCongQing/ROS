@@ -917,6 +917,556 @@ clean: test_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory learning_topic
+
+# Convenience name for "all" pass in the directory.
+learning_topic/all: learning_topic/CMakeFiles/velocity_publisher.dir/all
+
+.PHONY : learning_topic/all
+
+# Convenience name for "clean" pass in the directory.
+learning_topic/clean: learning_topic/CMakeFiles/turtlesim_generate_messages_cpp.dir/clean
+learning_topic/clean: learning_topic/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+learning_topic/clean: learning_topic/CMakeFiles/velocity_publisher.dir/clean
+learning_topic/clean: learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+learning_topic/clean: learning_topic/CMakeFiles/turtlesim_generate_messages_py.dir/clean
+learning_topic/clean: learning_topic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+learning_topic/clean: learning_topic/CMakeFiles/turtlesim_generate_messages_lisp.dir/clean
+learning_topic/clean: learning_topic/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
+learning_topic/clean: learning_topic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+learning_topic/clean: learning_topic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/clean
+learning_topic/clean: learning_topic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+learning_topic/clean: learning_topic/CMakeFiles/std_srvs_generate_messages_eus.dir/clean
+learning_topic/clean: learning_topic/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
+learning_topic/clean: learning_topic/CMakeFiles/turtlesim_generate_messages_eus.dir/clean
+learning_topic/clean: learning_topic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean
+learning_topic/clean: learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir/clean
+
+.PHONY : learning_topic/clean
+
+# Convenience name for "preinstall" pass in the directory.
+learning_topic/preinstall:
+
+.PHONY : learning_topic/preinstall
+
+#=============================================================================
+# Target rules for target learning_topic/CMakeFiles/turtlesim_generate_messages_cpp.dir
+
+# All Build rule for target.
+learning_topic/CMakeFiles/turtlesim_generate_messages_cpp.dir/all:
+	$(MAKE) -f learning_topic/CMakeFiles/turtlesim_generate_messages_cpp.dir/build.make learning_topic/CMakeFiles/turtlesim_generate_messages_cpp.dir/depend
+	$(MAKE) -f learning_topic/CMakeFiles/turtlesim_generate_messages_cpp.dir/build.make learning_topic/CMakeFiles/turtlesim_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles --progress-num= "Built target turtlesim_generate_messages_cpp"
+.PHONY : learning_topic/CMakeFiles/turtlesim_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+learning_topic/CMakeFiles/turtlesim_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/turtlesim_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+.PHONY : learning_topic/CMakeFiles/turtlesim_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+turtlesim_generate_messages_cpp: learning_topic/CMakeFiles/turtlesim_generate_messages_cpp.dir/rule
+
+.PHONY : turtlesim_generate_messages_cpp
+
+# clean rule for target.
+learning_topic/CMakeFiles/turtlesim_generate_messages_cpp.dir/clean:
+	$(MAKE) -f learning_topic/CMakeFiles/turtlesim_generate_messages_cpp.dir/build.make learning_topic/CMakeFiles/turtlesim_generate_messages_cpp.dir/clean
+.PHONY : learning_topic/CMakeFiles/turtlesim_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: learning_topic/CMakeFiles/turtlesim_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target learning_topic/CMakeFiles/geometry_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+learning_topic/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f learning_topic/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make learning_topic/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f learning_topic/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make learning_topic/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
+.PHONY : learning_topic/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+learning_topic/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+.PHONY : learning_topic/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_py: learning_topic/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_py
+
+# clean rule for target.
+learning_topic/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f learning_topic/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make learning_topic/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+.PHONY : learning_topic/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: learning_topic/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target learning_topic/CMakeFiles/velocity_publisher.dir
+
+# All Build rule for target.
+learning_topic/CMakeFiles/velocity_publisher.dir/all:
+	$(MAKE) -f learning_topic/CMakeFiles/velocity_publisher.dir/build.make learning_topic/CMakeFiles/velocity_publisher.dir/depend
+	$(MAKE) -f learning_topic/CMakeFiles/velocity_publisher.dir/build.make learning_topic/CMakeFiles/velocity_publisher.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles --progress-num=12,13 "Built target velocity_publisher"
+.PHONY : learning_topic/CMakeFiles/velocity_publisher.dir/all
+
+# Include target in all.
+all: learning_topic/CMakeFiles/velocity_publisher.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+learning_topic/CMakeFiles/velocity_publisher.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/velocity_publisher.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+.PHONY : learning_topic/CMakeFiles/velocity_publisher.dir/rule
+
+# Convenience name for target.
+velocity_publisher: learning_topic/CMakeFiles/velocity_publisher.dir/rule
+
+.PHONY : velocity_publisher
+
+# clean rule for target.
+learning_topic/CMakeFiles/velocity_publisher.dir/clean:
+	$(MAKE) -f learning_topic/CMakeFiles/velocity_publisher.dir/build.make learning_topic/CMakeFiles/velocity_publisher.dir/clean
+.PHONY : learning_topic/CMakeFiles/velocity_publisher.dir/clean
+
+# clean rule for target.
+clean: learning_topic/CMakeFiles/velocity_publisher.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_cpp"
+.PHONY : learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+.PHONY : learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_cpp: learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# clean rule for target.
+learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+.PHONY : learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target learning_topic/CMakeFiles/turtlesim_generate_messages_py.dir
+
+# All Build rule for target.
+learning_topic/CMakeFiles/turtlesim_generate_messages_py.dir/all:
+	$(MAKE) -f learning_topic/CMakeFiles/turtlesim_generate_messages_py.dir/build.make learning_topic/CMakeFiles/turtlesim_generate_messages_py.dir/depend
+	$(MAKE) -f learning_topic/CMakeFiles/turtlesim_generate_messages_py.dir/build.make learning_topic/CMakeFiles/turtlesim_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles --progress-num= "Built target turtlesim_generate_messages_py"
+.PHONY : learning_topic/CMakeFiles/turtlesim_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+learning_topic/CMakeFiles/turtlesim_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/turtlesim_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+.PHONY : learning_topic/CMakeFiles/turtlesim_generate_messages_py.dir/rule
+
+# Convenience name for target.
+turtlesim_generate_messages_py: learning_topic/CMakeFiles/turtlesim_generate_messages_py.dir/rule
+
+.PHONY : turtlesim_generate_messages_py
+
+# clean rule for target.
+learning_topic/CMakeFiles/turtlesim_generate_messages_py.dir/clean:
+	$(MAKE) -f learning_topic/CMakeFiles/turtlesim_generate_messages_py.dir/build.make learning_topic/CMakeFiles/turtlesim_generate_messages_py.dir/clean
+.PHONY : learning_topic/CMakeFiles/turtlesim_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: learning_topic/CMakeFiles/turtlesim_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target learning_topic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+learning_topic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f learning_topic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make learning_topic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f learning_topic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make learning_topic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
+.PHONY : learning_topic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+learning_topic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+.PHONY : learning_topic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_nodejs: learning_topic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_nodejs
+
+# clean rule for target.
+learning_topic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f learning_topic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make learning_topic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+.PHONY : learning_topic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: learning_topic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target learning_topic/CMakeFiles/turtlesim_generate_messages_lisp.dir
+
+# All Build rule for target.
+learning_topic/CMakeFiles/turtlesim_generate_messages_lisp.dir/all:
+	$(MAKE) -f learning_topic/CMakeFiles/turtlesim_generate_messages_lisp.dir/build.make learning_topic/CMakeFiles/turtlesim_generate_messages_lisp.dir/depend
+	$(MAKE) -f learning_topic/CMakeFiles/turtlesim_generate_messages_lisp.dir/build.make learning_topic/CMakeFiles/turtlesim_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles --progress-num= "Built target turtlesim_generate_messages_lisp"
+.PHONY : learning_topic/CMakeFiles/turtlesim_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+learning_topic/CMakeFiles/turtlesim_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/turtlesim_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+.PHONY : learning_topic/CMakeFiles/turtlesim_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+turtlesim_generate_messages_lisp: learning_topic/CMakeFiles/turtlesim_generate_messages_lisp.dir/rule
+
+.PHONY : turtlesim_generate_messages_lisp
+
+# clean rule for target.
+learning_topic/CMakeFiles/turtlesim_generate_messages_lisp.dir/clean:
+	$(MAKE) -f learning_topic/CMakeFiles/turtlesim_generate_messages_lisp.dir/build.make learning_topic/CMakeFiles/turtlesim_generate_messages_lisp.dir/clean
+.PHONY : learning_topic/CMakeFiles/turtlesim_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: learning_topic/CMakeFiles/turtlesim_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target learning_topic/CMakeFiles/std_srvs_generate_messages_cpp.dir
+
+# All Build rule for target.
+learning_topic/CMakeFiles/std_srvs_generate_messages_cpp.dir/all:
+	$(MAKE) -f learning_topic/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make learning_topic/CMakeFiles/std_srvs_generate_messages_cpp.dir/depend
+	$(MAKE) -f learning_topic/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make learning_topic/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_cpp"
+.PHONY : learning_topic/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+learning_topic/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+.PHONY : learning_topic/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_cpp: learning_topic/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+
+.PHONY : std_srvs_generate_messages_cpp
+
+# clean rule for target.
+learning_topic/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f learning_topic/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make learning_topic/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
+.PHONY : learning_topic/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: learning_topic/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target learning_topic/CMakeFiles/geometry_msgs_generate_messages_eus.dir
+
+# All Build rule for target.
+learning_topic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f learning_topic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make learning_topic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f learning_topic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make learning_topic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_eus"
+.PHONY : learning_topic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+learning_topic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+.PHONY : learning_topic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_eus: learning_topic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_eus
+
+# clean rule for target.
+learning_topic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f learning_topic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make learning_topic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+.PHONY : learning_topic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: learning_topic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target learning_topic/CMakeFiles/turtlesim_generate_messages_nodejs.dir
+
+# All Build rule for target.
+learning_topic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/all:
+	$(MAKE) -f learning_topic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build.make learning_topic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/depend
+	$(MAKE) -f learning_topic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build.make learning_topic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles --progress-num= "Built target turtlesim_generate_messages_nodejs"
+.PHONY : learning_topic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+learning_topic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+.PHONY : learning_topic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+turtlesim_generate_messages_nodejs: learning_topic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/rule
+
+.PHONY : turtlesim_generate_messages_nodejs
+
+# clean rule for target.
+learning_topic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f learning_topic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build.make learning_topic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/clean
+.PHONY : learning_topic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: learning_topic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target learning_topic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+learning_topic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f learning_topic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make learning_topic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f learning_topic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make learning_topic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
+.PHONY : learning_topic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+learning_topic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+.PHONY : learning_topic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_lisp: learning_topic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_lisp
+
+# clean rule for target.
+learning_topic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f learning_topic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make learning_topic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+.PHONY : learning_topic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: learning_topic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target learning_topic/CMakeFiles/std_srvs_generate_messages_eus.dir
+
+# All Build rule for target.
+learning_topic/CMakeFiles/std_srvs_generate_messages_eus.dir/all:
+	$(MAKE) -f learning_topic/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make learning_topic/CMakeFiles/std_srvs_generate_messages_eus.dir/depend
+	$(MAKE) -f learning_topic/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make learning_topic/CMakeFiles/std_srvs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_eus"
+.PHONY : learning_topic/CMakeFiles/std_srvs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+learning_topic/CMakeFiles/std_srvs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/std_srvs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+.PHONY : learning_topic/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_eus: learning_topic/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
+
+.PHONY : std_srvs_generate_messages_eus
+
+# clean rule for target.
+learning_topic/CMakeFiles/std_srvs_generate_messages_eus.dir/clean:
+	$(MAKE) -f learning_topic/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make learning_topic/CMakeFiles/std_srvs_generate_messages_eus.dir/clean
+.PHONY : learning_topic/CMakeFiles/std_srvs_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: learning_topic/CMakeFiles/std_srvs_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target learning_topic/CMakeFiles/std_srvs_generate_messages_lisp.dir
+
+# All Build rule for target.
+learning_topic/CMakeFiles/std_srvs_generate_messages_lisp.dir/all:
+	$(MAKE) -f learning_topic/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make learning_topic/CMakeFiles/std_srvs_generate_messages_lisp.dir/depend
+	$(MAKE) -f learning_topic/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make learning_topic/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_lisp"
+.PHONY : learning_topic/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+learning_topic/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+.PHONY : learning_topic/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_lisp: learning_topic/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+
+.PHONY : std_srvs_generate_messages_lisp
+
+# clean rule for target.
+learning_topic/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f learning_topic/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make learning_topic/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
+.PHONY : learning_topic/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: learning_topic/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target learning_topic/CMakeFiles/turtlesim_generate_messages_eus.dir
+
+# All Build rule for target.
+learning_topic/CMakeFiles/turtlesim_generate_messages_eus.dir/all:
+	$(MAKE) -f learning_topic/CMakeFiles/turtlesim_generate_messages_eus.dir/build.make learning_topic/CMakeFiles/turtlesim_generate_messages_eus.dir/depend
+	$(MAKE) -f learning_topic/CMakeFiles/turtlesim_generate_messages_eus.dir/build.make learning_topic/CMakeFiles/turtlesim_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles --progress-num= "Built target turtlesim_generate_messages_eus"
+.PHONY : learning_topic/CMakeFiles/turtlesim_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+learning_topic/CMakeFiles/turtlesim_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/turtlesim_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+.PHONY : learning_topic/CMakeFiles/turtlesim_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+turtlesim_generate_messages_eus: learning_topic/CMakeFiles/turtlesim_generate_messages_eus.dir/rule
+
+.PHONY : turtlesim_generate_messages_eus
+
+# clean rule for target.
+learning_topic/CMakeFiles/turtlesim_generate_messages_eus.dir/clean:
+	$(MAKE) -f learning_topic/CMakeFiles/turtlesim_generate_messages_eus.dir/build.make learning_topic/CMakeFiles/turtlesim_generate_messages_eus.dir/clean
+.PHONY : learning_topic/CMakeFiles/turtlesim_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: learning_topic/CMakeFiles/turtlesim_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target learning_topic/CMakeFiles/std_srvs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+learning_topic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f learning_topic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make learning_topic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f learning_topic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make learning_topic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_nodejs"
+.PHONY : learning_topic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+learning_topic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+.PHONY : learning_topic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_nodejs: learning_topic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
+
+.PHONY : std_srvs_generate_messages_nodejs
+
+# clean rule for target.
+learning_topic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f learning_topic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make learning_topic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean
+.PHONY : learning_topic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: learning_topic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir
+
+# All Build rule for target.
+learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir/all:
+	$(MAKE) -f learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir/build.make learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir/depend
+	$(MAKE) -f learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir/build.make learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_py"
+.PHONY : learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles 0
+.PHONY : learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_py: learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+
+.PHONY : std_srvs_generate_messages_py
+
+# clean rule for target.
+learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir/clean:
+	$(MAKE) -f learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir/build.make learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir/clean
+.PHONY : learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.
