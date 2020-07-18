@@ -363,6 +363,21 @@ std_srvs_generate_messages_lisp/fast:
 .PHONY : std_srvs_generate_messages_lisp/fast
 
 # Convenience name for target.
+learning_topic/CMakeFiles/pose_subscriber.dir/rule:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/pose_subscriber.dir/rule
+.PHONY : learning_topic/CMakeFiles/pose_subscriber.dir/rule
+
+# Convenience name for target.
+pose_subscriber: learning_topic/CMakeFiles/pose_subscriber.dir/rule
+
+.PHONY : pose_subscriber
+
+# fast build rule for target.
+pose_subscriber/fast:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f learning_topic/CMakeFiles/pose_subscriber.dir/build.make learning_topic/CMakeFiles/pose_subscriber.dir/build
+.PHONY : pose_subscriber/fast
+
+# Convenience name for target.
 learning_topic/CMakeFiles/turtlesim_generate_messages_eus.dir/rule:
 	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/turtlesim_generate_messages_eus.dir/rule
 .PHONY : learning_topic/CMakeFiles/turtlesim_generate_messages_eus.dir/rule
@@ -406,6 +421,33 @@ std_srvs_generate_messages_py: learning_topic/CMakeFiles/std_srvs_generate_messa
 std_srvs_generate_messages_py/fast:
 	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir/build.make learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir/build
 .PHONY : std_srvs_generate_messages_py/fast
+
+src/pose_subscriber.o: src/pose_subscriber.cpp.o
+
+.PHONY : src/pose_subscriber.o
+
+# target to build an object file
+src/pose_subscriber.cpp.o:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f learning_topic/CMakeFiles/pose_subscriber.dir/build.make learning_topic/CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o
+.PHONY : src/pose_subscriber.cpp.o
+
+src/pose_subscriber.i: src/pose_subscriber.cpp.i
+
+.PHONY : src/pose_subscriber.i
+
+# target to preprocess a source file
+src/pose_subscriber.cpp.i:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f learning_topic/CMakeFiles/pose_subscriber.dir/build.make learning_topic/CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.i
+.PHONY : src/pose_subscriber.cpp.i
+
+src/pose_subscriber.s: src/pose_subscriber.cpp.s
+
+.PHONY : src/pose_subscriber.s
+
+# target to generate assembly for a file
+src/pose_subscriber.cpp.s:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f learning_topic/CMakeFiles/pose_subscriber.dir/build.make learning_topic/CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.s
+.PHONY : src/pose_subscriber.cpp.s
 
 src/velocity_publisher.o: src/velocity_publisher.cpp.o
 
@@ -460,9 +502,13 @@ help:
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... std_srvs_generate_messages_eus"
 	@echo "... std_srvs_generate_messages_lisp"
+	@echo "... pose_subscriber"
 	@echo "... turtlesim_generate_messages_eus"
 	@echo "... std_srvs_generate_messages_nodejs"
 	@echo "... std_srvs_generate_messages_py"
+	@echo "... src/pose_subscriber.o"
+	@echo "... src/pose_subscriber.i"
+	@echo "... src/pose_subscriber.s"
 	@echo "... src/velocity_publisher.o"
 	@echo "... src/velocity_publisher.i"
 	@echo "... src/velocity_publisher.s"
