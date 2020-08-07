@@ -168,6 +168,141 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+learning_topic/CMakeFiles/velocity_publisher.dir/rule:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/velocity_publisher.dir/rule
+.PHONY : learning_topic/CMakeFiles/velocity_publisher.dir/rule
+
+# Convenience name for target.
+velocity_publisher: learning_topic/CMakeFiles/velocity_publisher.dir/rule
+
+.PHONY : velocity_publisher
+
+# fast build rule for target.
+velocity_publisher/fast:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f learning_topic/CMakeFiles/velocity_publisher.dir/build.make learning_topic/CMakeFiles/velocity_publisher.dir/build
+.PHONY : velocity_publisher/fast
+
+# Convenience name for target.
+learning_topic/CMakeFiles/learning_topic_gennodejs.dir/rule:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/learning_topic_gennodejs.dir/rule
+.PHONY : learning_topic/CMakeFiles/learning_topic_gennodejs.dir/rule
+
+# Convenience name for target.
+learning_topic_gennodejs: learning_topic/CMakeFiles/learning_topic_gennodejs.dir/rule
+
+.PHONY : learning_topic_gennodejs
+
+# fast build rule for target.
+learning_topic_gennodejs/fast:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f learning_topic/CMakeFiles/learning_topic_gennodejs.dir/build.make learning_topic/CMakeFiles/learning_topic_gennodejs.dir/build
+.PHONY : learning_topic_gennodejs/fast
+
+# Convenience name for target.
+learning_topic/CMakeFiles/learning_topic_generate_messages_nodejs.dir/rule:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/learning_topic_generate_messages_nodejs.dir/rule
+.PHONY : learning_topic/CMakeFiles/learning_topic_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+learning_topic_generate_messages_nodejs: learning_topic/CMakeFiles/learning_topic_generate_messages_nodejs.dir/rule
+
+.PHONY : learning_topic_generate_messages_nodejs
+
+# fast build rule for target.
+learning_topic_generate_messages_nodejs/fast:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f learning_topic/CMakeFiles/learning_topic_generate_messages_nodejs.dir/build.make learning_topic/CMakeFiles/learning_topic_generate_messages_nodejs.dir/build
+.PHONY : learning_topic_generate_messages_nodejs/fast
+
+# Convenience name for target.
+learning_topic/CMakeFiles/learning_topic_generate_messages_lisp.dir/rule:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/learning_topic_generate_messages_lisp.dir/rule
+.PHONY : learning_topic/CMakeFiles/learning_topic_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+learning_topic_generate_messages_lisp: learning_topic/CMakeFiles/learning_topic_generate_messages_lisp.dir/rule
+
+.PHONY : learning_topic_generate_messages_lisp
+
+# fast build rule for target.
+learning_topic_generate_messages_lisp/fast:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f learning_topic/CMakeFiles/learning_topic_generate_messages_lisp.dir/build.make learning_topic/CMakeFiles/learning_topic_generate_messages_lisp.dir/build
+.PHONY : learning_topic_generate_messages_lisp/fast
+
+# Convenience name for target.
+learning_topic/CMakeFiles/learning_topic_generate_messages_cpp.dir/rule:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/learning_topic_generate_messages_cpp.dir/rule
+.PHONY : learning_topic/CMakeFiles/learning_topic_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+learning_topic_generate_messages_cpp: learning_topic/CMakeFiles/learning_topic_generate_messages_cpp.dir/rule
+
+.PHONY : learning_topic_generate_messages_cpp
+
+# fast build rule for target.
+learning_topic_generate_messages_cpp/fast:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f learning_topic/CMakeFiles/learning_topic_generate_messages_cpp.dir/build.make learning_topic/CMakeFiles/learning_topic_generate_messages_cpp.dir/build
+.PHONY : learning_topic_generate_messages_cpp/fast
+
+# Convenience name for target.
+learning_topic/CMakeFiles/learning_topic_geneus.dir/rule:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/learning_topic_geneus.dir/rule
+.PHONY : learning_topic/CMakeFiles/learning_topic_geneus.dir/rule
+
+# Convenience name for target.
+learning_topic_geneus: learning_topic/CMakeFiles/learning_topic_geneus.dir/rule
+
+.PHONY : learning_topic_geneus
+
+# fast build rule for target.
+learning_topic_geneus/fast:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f learning_topic/CMakeFiles/learning_topic_geneus.dir/build.make learning_topic/CMakeFiles/learning_topic_geneus.dir/build
+.PHONY : learning_topic_geneus/fast
+
+# Convenience name for target.
+learning_topic/CMakeFiles/_learning_topic_generate_messages_check_deps_Person.dir/rule:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/_learning_topic_generate_messages_check_deps_Person.dir/rule
+.PHONY : learning_topic/CMakeFiles/_learning_topic_generate_messages_check_deps_Person.dir/rule
+
+# Convenience name for target.
+_learning_topic_generate_messages_check_deps_Person: learning_topic/CMakeFiles/_learning_topic_generate_messages_check_deps_Person.dir/rule
+
+.PHONY : _learning_topic_generate_messages_check_deps_Person
+
+# fast build rule for target.
+_learning_topic_generate_messages_check_deps_Person/fast:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f learning_topic/CMakeFiles/_learning_topic_generate_messages_check_deps_Person.dir/build.make learning_topic/CMakeFiles/_learning_topic_generate_messages_check_deps_Person.dir/build
+.PHONY : _learning_topic_generate_messages_check_deps_Person/fast
+
+# Convenience name for target.
+learning_topic/CMakeFiles/learning_topic_generate_messages_py.dir/rule:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/learning_topic_generate_messages_py.dir/rule
+.PHONY : learning_topic/CMakeFiles/learning_topic_generate_messages_py.dir/rule
+
+# Convenience name for target.
+learning_topic_generate_messages_py: learning_topic/CMakeFiles/learning_topic_generate_messages_py.dir/rule
+
+.PHONY : learning_topic_generate_messages_py
+
+# fast build rule for target.
+learning_topic_generate_messages_py/fast:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f learning_topic/CMakeFiles/learning_topic_generate_messages_py.dir/build.make learning_topic/CMakeFiles/learning_topic_generate_messages_py.dir/build
+.PHONY : learning_topic_generate_messages_py/fast
+
+# Convenience name for target.
+learning_topic/CMakeFiles/learning_topic_generate_messages_eus.dir/rule:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/learning_topic_generate_messages_eus.dir/rule
+.PHONY : learning_topic/CMakeFiles/learning_topic_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+learning_topic_generate_messages_eus: learning_topic/CMakeFiles/learning_topic_generate_messages_eus.dir/rule
+
+.PHONY : learning_topic_generate_messages_eus
+
+# fast build rule for target.
+learning_topic_generate_messages_eus/fast:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f learning_topic/CMakeFiles/learning_topic_generate_messages_eus.dir/build.make learning_topic/CMakeFiles/learning_topic_generate_messages_eus.dir/build
+.PHONY : learning_topic_generate_messages_eus/fast
+
+# Convenience name for target.
 learning_topic/CMakeFiles/turtlesim_generate_messages_cpp.dir/rule:
 	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/turtlesim_generate_messages_cpp.dir/rule
 .PHONY : learning_topic/CMakeFiles/turtlesim_generate_messages_cpp.dir/rule
@@ -198,34 +333,19 @@ geometry_msgs_generate_messages_py/fast:
 .PHONY : geometry_msgs_generate_messages_py/fast
 
 # Convenience name for target.
-learning_topic/CMakeFiles/velocity_publisher.dir/rule:
-	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/velocity_publisher.dir/rule
-.PHONY : learning_topic/CMakeFiles/velocity_publisher.dir/rule
+learning_topic/CMakeFiles/learning_topic_genlisp.dir/rule:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/learning_topic_genlisp.dir/rule
+.PHONY : learning_topic/CMakeFiles/learning_topic_genlisp.dir/rule
 
 # Convenience name for target.
-velocity_publisher: learning_topic/CMakeFiles/velocity_publisher.dir/rule
+learning_topic_genlisp: learning_topic/CMakeFiles/learning_topic_genlisp.dir/rule
 
-.PHONY : velocity_publisher
+.PHONY : learning_topic_genlisp
 
 # fast build rule for target.
-velocity_publisher/fast:
-	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f learning_topic/CMakeFiles/velocity_publisher.dir/build.make learning_topic/CMakeFiles/velocity_publisher.dir/build
-.PHONY : velocity_publisher/fast
-
-# Convenience name for target.
-learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_cpp: learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_cpp/fast:
-	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-.PHONY : geometry_msgs_generate_messages_cpp/fast
+learning_topic_genlisp/fast:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f learning_topic/CMakeFiles/learning_topic_genlisp.dir/build.make learning_topic/CMakeFiles/learning_topic_genlisp.dir/build
+.PHONY : learning_topic_genlisp/fast
 
 # Convenience name for target.
 learning_topic/CMakeFiles/turtlesim_generate_messages_py.dir/rule:
@@ -378,6 +498,21 @@ pose_subscriber/fast:
 .PHONY : pose_subscriber/fast
 
 # Convenience name for target.
+learning_topic/CMakeFiles/learning_topic_genpy.dir/rule:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/learning_topic_genpy.dir/rule
+.PHONY : learning_topic/CMakeFiles/learning_topic_genpy.dir/rule
+
+# Convenience name for target.
+learning_topic_genpy: learning_topic/CMakeFiles/learning_topic_genpy.dir/rule
+
+.PHONY : learning_topic_genpy
+
+# fast build rule for target.
+learning_topic_genpy/fast:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f learning_topic/CMakeFiles/learning_topic_genpy.dir/build.make learning_topic/CMakeFiles/learning_topic_genpy.dir/build
+.PHONY : learning_topic_genpy/fast
+
+# Convenience name for target.
 learning_topic/CMakeFiles/turtlesim_generate_messages_eus.dir/rule:
 	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/turtlesim_generate_messages_eus.dir/rule
 .PHONY : learning_topic/CMakeFiles/turtlesim_generate_messages_eus.dir/rule
@@ -408,6 +543,21 @@ std_srvs_generate_messages_nodejs/fast:
 .PHONY : std_srvs_generate_messages_nodejs/fast
 
 # Convenience name for target.
+learning_topic/CMakeFiles/learning_topic_gencpp.dir/rule:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/learning_topic_gencpp.dir/rule
+.PHONY : learning_topic/CMakeFiles/learning_topic_gencpp.dir/rule
+
+# Convenience name for target.
+learning_topic_gencpp: learning_topic/CMakeFiles/learning_topic_gencpp.dir/rule
+
+.PHONY : learning_topic_gencpp
+
+# fast build rule for target.
+learning_topic_gencpp/fast:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f learning_topic/CMakeFiles/learning_topic_gencpp.dir/build.make learning_topic/CMakeFiles/learning_topic_gencpp.dir/build
+.PHONY : learning_topic_gencpp/fast
+
+# Convenience name for target.
 learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir/rule:
 	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir/rule
 .PHONY : learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir/rule
@@ -421,6 +571,36 @@ std_srvs_generate_messages_py: learning_topic/CMakeFiles/std_srvs_generate_messa
 std_srvs_generate_messages_py/fast:
 	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir/build.make learning_topic/CMakeFiles/std_srvs_generate_messages_py.dir/build
 .PHONY : std_srvs_generate_messages_py/fast
+
+# Convenience name for target.
+learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+.PHONY : learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_cpp: learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_cpp/fast:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make learning_topic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+.PHONY : geometry_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+learning_topic/CMakeFiles/learning_topic_generate_messages.dir/rule:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/learning_topic_generate_messages.dir/rule
+.PHONY : learning_topic/CMakeFiles/learning_topic_generate_messages.dir/rule
+
+# Convenience name for target.
+learning_topic_generate_messages: learning_topic/CMakeFiles/learning_topic_generate_messages.dir/rule
+
+.PHONY : learning_topic_generate_messages
+
+# fast build rule for target.
+learning_topic_generate_messages/fast:
+	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(MAKE) -f learning_topic/CMakeFiles/learning_topic_generate_messages.dir/build.make learning_topic/CMakeFiles/learning_topic_generate_messages.dir/build
+.PHONY : learning_topic_generate_messages/fast
 
 src/pose_subscriber.o: src/pose_subscriber.cpp.o
 
@@ -484,11 +664,19 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install/local"
+	@echo "... velocity_publisher"
+	@echo "... learning_topic_gennodejs"
+	@echo "... learning_topic_generate_messages_nodejs"
+	@echo "... learning_topic_generate_messages_lisp"
+	@echo "... learning_topic_generate_messages_cpp"
+	@echo "... learning_topic_geneus"
+	@echo "... _learning_topic_generate_messages_check_deps_Person"
+	@echo "... learning_topic_generate_messages_py"
+	@echo "... learning_topic_generate_messages_eus"
 	@echo "... turtlesim_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_py"
-	@echo "... velocity_publisher"
-	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... rebuild_cache"
+	@echo "... learning_topic_genlisp"
 	@echo "... turtlesim_generate_messages_py"
 	@echo "... edit_cache"
 	@echo "... geometry_msgs_generate_messages_nodejs"
@@ -503,9 +691,13 @@ help:
 	@echo "... std_srvs_generate_messages_eus"
 	@echo "... std_srvs_generate_messages_lisp"
 	@echo "... pose_subscriber"
+	@echo "... learning_topic_genpy"
 	@echo "... turtlesim_generate_messages_eus"
 	@echo "... std_srvs_generate_messages_nodejs"
+	@echo "... learning_topic_gencpp"
 	@echo "... std_srvs_generate_messages_py"
+	@echo "... geometry_msgs_generate_messages_cpp"
+	@echo "... learning_topic_generate_messages"
 	@echo "... src/pose_subscriber.o"
 	@echo "... src/pose_subscriber.i"
 	@echo "... src/pose_subscriber.s"

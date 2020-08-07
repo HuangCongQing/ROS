@@ -3,6 +3,6 @@ prefix=/home/AzureUser/hcq/ROS/catkin_wp/install
 Name: learning_topic
 Description: Description of learning_topic
 Version: 0.0.0
-Cflags: 
+Cflags: -I${prefix}/include
 Libs: -L${prefix}/lib 
-Requires: 
+Requires: geometry_msgs roscpp rospy std_msgs turtlesim message_runtime

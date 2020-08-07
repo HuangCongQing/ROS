@@ -13,6 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   turtlesim
+  message_generation
 )
 
 ## System dependencies are found with CMake's conventions
@@ -75,6 +76,16 @@ find_package(catkin REQUIRED COMPONENTS
 #   geometry_msgs#   std_msgs
 # )
 
+add_message_files(
+  FILES
+  Person.msg # Person.msg文件
+)
+
+generate_messages(
+  DEPENDENCIES
+  std_msgs
+)
+
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
 ################################################
@@ -107,7 +118,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES learning_topic
-#  CATKIN_DEPENDS geometry_msgs roscpp rospy std_msgs turtlesim
+   CATKIN_DEPENDS geometry_msgs roscpp rospy std_msgs turtlesim message_runtime
 #  DEPENDS system_lib
 )
 
