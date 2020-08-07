@@ -6,7 +6,19 @@
 
 * ROS & SLAM个人笔记：https://www.yuque.com/huangzhongqing/ld627o
 
+## 编译和运行
+```shell
+// 编译功能包(回到目录catkin_ws)
+catkin_make
+// 设置环境变量(能让系统找到我们的工作空间和功能包)
+source devel/setup.bash
 
+
+// 运行
+roscore //启动ROS master
+rosrun turtlesim(功能包名) turtlesim_node(节点名) //rosrun启动节点，该节点归属于功能包，这个节点就是小海龟仿真器
+rosrun turtlesim turtle_teleop_key
+```
 
 ## ROS介绍
 

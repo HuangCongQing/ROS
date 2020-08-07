@@ -173,6 +173,15 @@ target_link_libraries(velocity_publisher ${catkin_LIBRARIES})
 add_executable(pose_subscriber src/pose_subscriber.cpp)
 target_link_libraries(pose_subscriber ${catkin_LIBRARIES})
 
+# 12.话题消息的定义与使用 多了一行add_dependencies
+add_executable(person_publisher src/person_publisher.cpp)
+target_link_libraries(person_publisher ${catkin_LIBRARIES})
+add_dependencies(person_publisher ${PROJECT_NAME}_generate_messages_cpp) # 多了一行add_dependencies
+
+add_executable(person_subscriber src/person_subscriber.cpp)
+target_link_libraries(person_subscriber ${catkin_LIBRARIES})
+add_dependencies(person_subscriber ${PROJECT_NAME}_generate_messages_cpp)
+
 #############
 ## Install ##
 #############

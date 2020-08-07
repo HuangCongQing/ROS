@@ -11,5 +11,6 @@ export CMAKE_PREFIX_PATH="/home/AzureUser/hcq/ROS/catkin_wp/devel:$CMAKE_PREFIX_
 export LD_LIBRARY_PATH="/home/AzureUser/hcq/ROS/catkin_wp/devel/lib:$LD_LIBRARY_PATH"
 export PKG_CONFIG_PATH="/home/AzureUser/hcq/ROS/catkin_wp/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/AzureUser/hcq/ROS/catkin_wp/build"
+export PYTHONPATH="/home/AzureUser/hcq/ROS/catkin_wp/devel/lib/python2.7/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/AzureUser/hcq/ROS/catkin_wp/devel/share/common-lisp"
 export ROS_PACKAGE_PATH="/home/AzureUser/hcq/ROS/catkin_wp/src:$ROS_PACKAGE_PATH"
