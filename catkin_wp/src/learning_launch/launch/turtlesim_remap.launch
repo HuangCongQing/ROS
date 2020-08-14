@@ -1,0 +1,11 @@
+<launch>
+
+	<include file="$(find learning_launch)/launch/simple.launch" />
+
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node">
+		<remap from="/turtle1/cmd_vel" to="/cmd_vel"/>
+	</node>
+
+</launch>
+
+

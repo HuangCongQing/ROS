@@ -1,0 +1,16 @@
+<launch>
+
+	<param name="/turtle_number"   value="2"/>
+
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node">
+		<param name="turtle_name1"   value="Tom"/>
+		<param name="turtle_name2"   value="Jerry"/>
+
+		<rosparam file="$(find learning_launch)/config/param.yaml" command="load"/>
+	</node>
+
+    <node pkg="turtlesim" type="turtle_teleop_key" name="turtle_teleop_key" output="screen"/>
+
+</launch>
+
+
