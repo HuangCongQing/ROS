@@ -17,7 +17,7 @@ int main(int argc, char** argv)
     // 创建节点句柄
 	ros::NodeHandle node;
 
-    // 发现/spawn服务后，创建一个服务客户端，连接名为/spawn的service
+	// 发现/show_person服务后，创建一个服务客户端，连接名为/show_person的service
 	ros::service::waitForService("/show_person");
 	ros::ServiceClient person_client = node.serviceClient<learning_service::Person>("/show_person");
 

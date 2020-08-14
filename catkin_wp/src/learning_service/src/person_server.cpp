@@ -1,3 +1,11 @@
+/*
+ * @Description: 
+ * @Author: HCQ
+ * @Company(School): UCAS
+ * @Date: 2020-08-14 12:26:13
+ * @LastEditors: HCQ
+ * @LastEditTime: 2020-08-14 18:39:15
+ */
 /***********************************************************************
 Copyright 2020 GuYueHome (www.guyuehome.com).
 ***********************************************************************/
@@ -17,7 +25,7 @@ bool personCallback(learning_service::Person::Request  &req,
     ROS_INFO("Person: name:%s  age:%d  sex:%d", req.name.c_str(), req.age, req.sex);
 
 	// 设置反馈数据
-	res.result = "OK";
+	res.result = "OK"; // 返回给client客户端 OK
 
     return true;
 }
@@ -35,7 +43,7 @@ int main(int argc, char **argv)
 
     // 循环等待回调函数
     ROS_INFO("Ready to show person informtion.");
-    ros::spin();
+    ros::spin(); // 等待到就会进入service回调函数
 
     return 0;
 }
