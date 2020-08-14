@@ -1,5 +1,13 @@
+<!--
+ * @Description: 
+ * @Author: HCQ
+ * @Company(School): UCAS
+ * @Date: 2019-04-16 15:26:41
+ * @LastEditors: HCQ
+ * @LastEditTime: 2020-08-15 00:56:24
+-->
 # ROS
-机器人操作系统
+机器人操作系统@[双愚](https://github.com/HuangCongQing/ROS)
 
 * 运行环境：Ubuntu18.04 微软云服务器（AzureUser@aitraining）
 `/home/AzureUser/hcq/ROS`
