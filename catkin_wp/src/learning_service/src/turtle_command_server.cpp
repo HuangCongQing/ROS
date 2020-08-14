@@ -7,22 +7,22 @@ Copyright 2020 GuYueHome (www.guyuehome.com).
  */
  
 #include <ros/ros.h>
-#include <geometry_msgs/Twist.h>
-#include <std_srvs/Trigger.h>
+#include <geometry_msgs/Twist.h> // topic头文件
+#include <std_srvs/Trigger.h>	 // service Trigger头文件
 
-ros::Publisher turtle_vel_pub;
-bool pubCommand = false;
+ros::Publisher turtle_vel_pub; // 全局的Publisher
+bool pubCommand = false; // 海龟运行停止标志位
 
 // service回调函数，输入参数req，输出参数res
 bool commandCallback(std_srvs::Trigger::Request  &req,
          			std_srvs::Trigger::Response &res)
 {
-	pubCommand = !pubCommand;
+	pubCommand = !pubCommand; // 取反
 
     // 显示请求数据
     ROS_INFO("Publish turtle velocity command [%s]", pubCommand==true?"Yes":"No");
 
-	// 设置反馈数据
+	// 设置反馈数据 std_srvs::Trigger定义
 	res.success = true;
 	res.message = "Change turtle command state!"
 
@@ -46,13 +46,13 @@ int main(int argc, char **argv)
     // 循环等待回调函数
     ROS_INFO("Ready to receive turtle command.");
 
-	// 设置循环的频率
+	// 设置循环的频率 1s 10HZ
 	ros::Rate loop_rate(10);
 
 	while(ros::ok())
 	{
 		// 查看一次回调函数队列
-    	ros::spinOnce();
+    	ros::spinOnce(); // 不断查看callback函数调用队列，来一个callback就执行一个
 		
 		// 如果标志为true，则发布速度指令
 		if(pubCommand)

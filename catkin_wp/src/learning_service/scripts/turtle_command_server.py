@@ -1,3 +1,11 @@
+'''
+Description: 
+Author: HCQ
+Company(School): UCAS
+Date: 2020-08-14 12:26:13
+LastEditors: HCQ
+LastEditTime: 2020-08-14 16:11:14
+'''
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
@@ -15,7 +23,7 @@ from std_srvs.srv import Trigger, TriggerResponse
 pubCommand = False;
 turtle_vel_pub = rospy.Publisher('/turtle1/cmd_vel', Twist, queue_size=10)
 
-def command_thread():	
+def command_thread():	# 线程   实现c++ spinOnce功能
 	while True:
 		if pubCommand:
 			vel_msg = Twist()

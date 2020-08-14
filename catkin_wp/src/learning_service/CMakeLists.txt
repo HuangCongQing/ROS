@@ -166,6 +166,9 @@ include_directories(
 add_executable(turtle_spawn src/turtle_spawn.cpp) # 将cpp编译为turtle_spawn
 target_link_libraries(turtle_spawn ${catkin_LIBRARIES})
 
+add_executable(turtle_command_server src/turtle_command_server.cpp) 
+target_link_libraries(turtle_command_server ${catkin_LIBRARIES})
+
 
 add_executable(person_server src/person_server.cpp)
 target_link_libraries(person_server ${catkin_LIBRARIES})
