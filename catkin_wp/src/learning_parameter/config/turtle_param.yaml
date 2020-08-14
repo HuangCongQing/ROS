@@ -1,0 +1,10 @@
+background_b: 255
+background_g: 86
+background_r: 69
+rosdistro: 'melodic'
+roslaunch:
+  uris: {host_hcx_vpc__43763: 'http://hcx-vpc:43763/'}
+rosversion: '1.14.3'
+run_id: 077058de-a38b-11e9-818b-000c29d22e4d
+
+
