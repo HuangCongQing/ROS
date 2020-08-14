@@ -1,3 +1,11 @@
+/*
+ * @Description: 
+ * @Author: HCQ
+ * @Company(School): UCAS
+ * @Date: 2020-08-14 12:26:13
+ * @LastEditors: HCQ
+ * @LastEditTime: 2020-08-14 21:53:07
+ */
 /***********************************************************************
 Copyright 2020 GuYueHome (www.guyuehome.com).
 ***********************************************************************/
@@ -19,8 +27,8 @@ void poseCallback(const turtlesim::PoseConstPtr& msg)
 
 	// 初始化tf数据
 	tf::Transform transform;
-	transform.setOrigin( tf::Vector3(msg->x, msg->y, 0.0) );
-	tf::Quaternion q;
+	transform.setOrigin( tf::Vector3(msg->x, msg->y, 0.0) );// 设置平移参数
+	tf::Quaternion q; // Quaternion 四元数
 	q.setRPY(0, 0, msg->theta);
 	transform.setRotation(q);
 

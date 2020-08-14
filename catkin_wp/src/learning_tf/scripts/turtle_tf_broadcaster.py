@@ -1,3 +1,11 @@
+'''
+Description: 
+Author: HCQ
+Company(School): UCAS
+Date: 2020-08-14 12:26:13
+LastEditors: HCQ
+LastEditTime: 2020-08-14 22:07:37
+'''
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
@@ -24,7 +32,7 @@ def handle_turtle_pose(msg, turtlename):
 
 if __name__ == '__main__':
     rospy.init_node('turtle_tf_broadcaster')
-    turtlename = rospy.get_param('~turtle')
+    turtlename = rospy.get_param('~turtle') # 获得参数
     rospy.Subscriber('/%s/pose' % turtlename,
                      turtlesim.msg.Pose,
                      handle_turtle_pose,

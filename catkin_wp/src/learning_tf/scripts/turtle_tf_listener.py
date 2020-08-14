@@ -1,3 +1,11 @@
+'''
+Description: 
+Author: HCQ
+Company(School): UCAS
+Date: 2020-08-14 12:26:13
+LastEditors: HCQ
+LastEditTime: 2020-08-14 22:10:25
+'''
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
@@ -38,7 +46,7 @@ if __name__ == '__main__':
         cmd = geometry_msgs.msg.Twist()
         cmd.linear.x = linear
         cmd.angular.z = angular
-        turtle_vel.publish(cmd)
+        turtle_vel.publish(cmd) # 发布指令
 
         rate.sleep()
 

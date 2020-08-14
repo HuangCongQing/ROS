@@ -1,3 +1,11 @@
+/*
+ * @Description: 
+ * @Author: HCQ
+ * @Company(School): UCAS
+ * @Date: 2020-08-14 12:26:13
+ * @LastEditors: HCQ
+ * @LastEditTime: 2020-08-14 21:58:46
+ */
 /***********************************************************************
 Copyright 2020 GuYueHome (www.guyuehome.com).
 ***********************************************************************/
@@ -8,8 +16,8 @@ Copyright 2020 GuYueHome (www.guyuehome.com).
 
 #include <ros/ros.h>
 #include <tf/transform_listener.h>
-#include <geometry_msgs/Twist.h>
-#include <turtlesim/Spawn.h>
+#include <geometry_msgs/Twist.h> // 话题
+#include <turtlesim/Spawn.h> // 服务
 
 int main(int argc, char** argv)
 {
@@ -38,8 +46,8 @@ int main(int argc, char** argv)
 		tf::StampedTransform transform;
 		try
 		{
-			listener.waitForTransform("/turtle2", "/turtle1", ros::Time(0), ros::Duration(3.0));
-			listener.lookupTransform("/turtle2", "/turtle1", ros::Time(0), transform);
+			listener.waitForTransform("/turtle2", "/turtle1", ros::Time(0), ros::Duration(3.0));// 等待transform
+			listener.lookupTransform("/turtle2", "/turtle1", ros::Time(0), transform);// 查询transform
 		}
 		catch (tf::TransformException &ex) 
 		{
