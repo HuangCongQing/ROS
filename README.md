@@ -45,10 +45,16 @@ ROS2：一开始只是学术界，后面成为机器人领域的普遍标准，�
 
 
 ## Reference
-书籍：《ROS机器人开发实践_胡春旭》
-### 古月 · ROS入门21讲
+### 书籍：《ROS机器人开发实践_胡春旭》
+* 《ROS机器人开发实践》源码：https://github.com/huchunxu/ros_exploring
+
+### 视频和代码
+* 1 古月 · ROS入门21讲
+* 2 机器人操作系统ROS理论与实践【9讲】
+
+#### 1 古月 · ROS入门21讲
 课件：https://github.com/huchunxu/ros_21_tutorials/tree/master/docs/slides
 源码：https://github.com/huchunxu/ros_21_tutorials
 
-### 机器人操作系统ROS理论与实践【9讲】
+#### 2 机器人操作系统ROS理论与实践【9讲】
 
