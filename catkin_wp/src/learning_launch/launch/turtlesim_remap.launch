@@ -1,9 +1,10 @@
 <launch>
-
+	<!-- include 包含另一个launch文件 -->
 	<include file="$(find learning_launch)/launch/simple.launch" />
 
     <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node">
-		<remap from="/turtle1/cmd_vel" to="/cmd_vel"/>
+		<remap from="/turtle1/cmd_vel" to="/cmd_vel"/>  
+		<!-- 原来的资源重新命名，原来的资源不复存在 |  修改话题list中的名字 -->
 	</node>
 
 </launch>
