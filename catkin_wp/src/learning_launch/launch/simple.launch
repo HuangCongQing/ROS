@@ -2,6 +2,6 @@
     <node pkg="learning_topic" type="person_subscriber" name="talker" output="screen" />
     <node pkg="learning_topic" type="person_publisher" name="listener" output="screen" /> 
 </launch>
-<!-- 两个node标签，对应两个node节点 -->
+<!-- 两个node标签，对应两个node节点 pkg   type  name  -->
 
 
