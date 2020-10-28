@@ -6,3 +6,5 @@
 
 ros_21_tutorials/
 catkin_wp/build
+catkin_wp/devel
+catkin_wp/install
