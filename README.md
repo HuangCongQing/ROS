@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Date: 2019-04-16 15:26:41
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2020-10-28 10:56:37
+ * @LastEditTime: 2020-10-28 11:03:01
 -->
 # ROS
 机器人操作系统@[双愚](https://github.com/HuangCongQing/ROS)
@@ -32,7 +32,7 @@ source devel/setup.bash  // 不同shell，不同哦.sh  .zsh
 
 
 ```shell
-//2 创建功能包
+//2 创建功能包(src文件夹下)
 //创建包 catkin_create_pkg 包名 依赖1 依赖2 
 cd src
 catkin_create_pkg test_pkg std_msgs roscpp rospy
@@ -51,10 +51,12 @@ rosrun turtlesim turtle_teleop_key
 
 ## ROS介绍
 
-作者：Morgan  博士生导师：吴恩达
-ROS2：一开始只是学术界，后面成为机器人领域的普遍标准，很多设计上的局限性和问题暴露出来，所以需要改良到工业界。
-别人已经早好轮子，集成起来，提高软件复用率。
-有的组织擅长建模，OR导航 OR物理识别，ROS就可以把这些组织都连接起来，帮助他们建立一种相互合作的的高效的方式，在已有成果做更多东西。
+>作者：Morgan  其博士生导师：吴恩达
+>别人已经造好轮子，集成起来，提高软件复用率。
+(有的组织擅长建模，OR导航 OR物理识别，ROS就可以把这些组织都连接起来，帮助他们建立一种相互合作的的高效的方式，在已有成果做更多东西。)
+
+> ROS2：一开始只是学术界，后面成为机器人领域的普遍标准，很多设计上的局限性和问题暴露出来，所以需要改良到工业界。
+
 
 1. 节点 节点管理器（婚介所）
 2. 话题&服务
