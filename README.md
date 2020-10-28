@@ -3,8 +3,8 @@
  * @Author: HCQ
  * @Company(School): UCAS
  * @Date: 2019-04-16 15:26:41
- * @LastEditors: HCQ
- * @LastEditTime: 2020-08-15 11:06:53
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2020-10-28 10:56:37
 -->
 # ROS
 机器人操作系统@[双愚](https://github.com/HuangCongQing/ROS)
@@ -15,7 +15,28 @@
 * ROS & SLAM个人笔记：https://www.yuque.com/huangzhongqing/ld627o
 
 ## 编译和运行
+```
+// 1 设置工作空间
+cd catkin_wp/src
+catkin_init_workspace
+
+// 编译（需要回到工作空间catkin_wp）
+cd ..
+catkin_make  // 产生build和devel文件夹
+catkin_make install // 就会有install文件夹
+
+//设置环境变量
+source devel/setup.bash  // 不同shell，不同哦.sh  .zsh
+```
+
+
+
 ```shell
+//2 创建功能包
+//创建包 catkin_create_pkg 包名 依赖1 依赖2 
+cd src
+catkin_create_pkg test_pkg std_msgs roscpp rospy
+
 // 编译功能包(回到目录catkin_ws)
 catkin_make
 // 设置环境变量(能让系统找到我们的工作空间和功能包)
