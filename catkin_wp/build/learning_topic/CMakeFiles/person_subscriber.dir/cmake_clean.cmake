@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/person_subscriber.dir/src/person_subscriber.cpp.o"
-  "/home/AzureUser/hcq/ROS/catkin_wp/devel/lib/learning_topic/person_subscriber.pdb"
-  "/home/AzureUser/hcq/ROS/catkin_wp/devel/lib/learning_topic/person_subscriber"
+  "/home/hcq/github/ROS/catkin_wp/devel/lib/learning_topic/person_subscriber.pdb"
+  "/home/hcq/github/ROS/catkin_wp/devel/lib/learning_topic/person_subscriber"
 )
 
 # Per-language clean rules from dependency scanning.

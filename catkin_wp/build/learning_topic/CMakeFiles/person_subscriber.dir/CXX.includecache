@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/AzureUser/hcq/ROS/catkin_wp/devel/include/learning_topic/Person.h
+/home/hcq/github/ROS/catkin_wp/devel/include/learning_topic/Person.h
 string
 -
 vector
@@ -22,11 +22,11 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/AzureUser/hcq/ROS/catkin_wp/src/learning_topic/src/person_subscriber.cpp
+/home/hcq/github/ROS/catkin_wp/src/learning_topic/src/person_subscriber.cpp
 ros/ros.h
 -
 learning_topic/Person.h
-/home/AzureUser/hcq/ROS/catkin_wp/src/learning_topic/src/learning_topic/Person.h
+/home/hcq/github/ROS/catkin_wp/src/learning_topic/src/learning_topic/Person.h
 
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h

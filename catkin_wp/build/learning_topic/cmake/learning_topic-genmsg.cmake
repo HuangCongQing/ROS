@@ -2,7 +2,7 @@
 
 message(STATUS "learning_topic: 1 messages, 0 services")
 
-set(MSG_I_FLAGS "-Ilearning_topic:/home/AzureUser/hcq/ROS/catkin_wp/src/learning_topic/msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ilearning_topic:/home/hcq/github/ROS/catkin_wp/src/learning_topic/msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,9 +17,9 @@ add_custom_target(learning_topic_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/AzureUser/hcq/ROS/catkin_wp/src/learning_topic/msg/Person.msg" NAME_WE)
+get_filename_component(_filename "/home/hcq/github/ROS/catkin_wp/src/learning_topic/msg/Person.msg" NAME_WE)
 add_custom_target(_learning_topic_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "learning_topic" "/home/AzureUser/hcq/ROS/catkin_wp/src/learning_topic/msg/Person.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "learning_topic" "/home/hcq/github/ROS/catkin_wp/src/learning_topic/msg/Person.msg" ""
 )
 
 #
@@ -29,7 +29,7 @@ add_custom_target(_learning_topic_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(learning_topic
-  "/home/AzureUser/hcq/ROS/catkin_wp/src/learning_topic/msg/Person.msg"
+  "/home/hcq/github/ROS/catkin_wp/src/learning_topic/msg/Person.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/learning_topic
@@ -49,7 +49,7 @@ add_custom_target(learning_topic_generate_messages_cpp
 add_dependencies(learning_topic_generate_messages learning_topic_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/AzureUser/hcq/ROS/catkin_wp/src/learning_topic/msg/Person.msg" NAME_WE)
+get_filename_component(_filename "/home/hcq/github/ROS/catkin_wp/src/learning_topic/msg/Person.msg" NAME_WE)
 add_dependencies(learning_topic_generate_messages_cpp _learning_topic_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -62,7 +62,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS learning_topic_generate_messages_cp
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(learning_topic
-  "/home/AzureUser/hcq/ROS/catkin_wp/src/learning_topic/msg/Person.msg"
+  "/home/hcq/github/ROS/catkin_wp/src/learning_topic/msg/Person.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/learning_topic
@@ -82,7 +82,7 @@ add_custom_target(learning_topic_generate_messages_eus
 add_dependencies(learning_topic_generate_messages learning_topic_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/AzureUser/hcq/ROS/catkin_wp/src/learning_topic/msg/Person.msg" NAME_WE)
+get_filename_component(_filename "/home/hcq/github/ROS/catkin_wp/src/learning_topic/msg/Person.msg" NAME_WE)
 add_dependencies(learning_topic_generate_messages_eus _learning_topic_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -95,7 +95,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS learning_topic_generate_messages_eu
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(learning_topic
-  "/home/AzureUser/hcq/ROS/catkin_wp/src/learning_topic/msg/Person.msg"
+  "/home/hcq/github/ROS/catkin_wp/src/learning_topic/msg/Person.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/learning_topic
@@ -115,7 +115,7 @@ add_custom_target(learning_topic_generate_messages_lisp
 add_dependencies(learning_topic_generate_messages learning_topic_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/AzureUser/hcq/ROS/catkin_wp/src/learning_topic/msg/Person.msg" NAME_WE)
+get_filename_component(_filename "/home/hcq/github/ROS/catkin_wp/src/learning_topic/msg/Person.msg" NAME_WE)
 add_dependencies(learning_topic_generate_messages_lisp _learning_topic_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -128,7 +128,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS learning_topic_generate_messages_li
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(learning_topic
-  "/home/AzureUser/hcq/ROS/catkin_wp/src/learning_topic/msg/Person.msg"
+  "/home/hcq/github/ROS/catkin_wp/src/learning_topic/msg/Person.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/learning_topic
@@ -148,7 +148,7 @@ add_custom_target(learning_topic_generate_messages_nodejs
 add_dependencies(learning_topic_generate_messages learning_topic_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/AzureUser/hcq/ROS/catkin_wp/src/learning_topic/msg/Person.msg" NAME_WE)
+get_filename_component(_filename "/home/hcq/github/ROS/catkin_wp/src/learning_topic/msg/Person.msg" NAME_WE)
 add_dependencies(learning_topic_generate_messages_nodejs _learning_topic_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -161,7 +161,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS learning_topic_generate_messages_no
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(learning_topic
-  "/home/AzureUser/hcq/ROS/catkin_wp/src/learning_topic/msg/Person.msg"
+  "/home/hcq/github/ROS/catkin_wp/src/learning_topic/msg/Person.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/learning_topic
@@ -181,7 +181,7 @@ add_custom_target(learning_topic_generate_messages_py
 add_dependencies(learning_topic_generate_messages learning_topic_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/AzureUser/hcq/ROS/catkin_wp/src/learning_topic/msg/Person.msg" NAME_WE)
+get_filename_component(_filename "/home/hcq/github/ROS/catkin_wp/src/learning_topic/msg/Person.msg" NAME_WE)
 add_dependencies(learning_topic_generate_messages_py _learning_topic_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

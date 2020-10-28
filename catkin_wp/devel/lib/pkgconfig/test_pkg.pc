@@ -1,4 +1,4 @@
-prefix=/home/AzureUser/hcq/ROS/catkin_wp/devel
+prefix=/home/hcq/github/ROS/catkin_wp/devel
 
 Name: test_pkg
 Description: Description of test_pkg

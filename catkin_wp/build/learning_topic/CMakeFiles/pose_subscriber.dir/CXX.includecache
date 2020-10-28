@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/AzureUser/hcq/ROS/catkin_wp/src/learning_topic/src/pose_subscriber.cpp
+/home/hcq/github/ROS/catkin_wp/src/learning_topic/src/pose_subscriber.cpp
 ros/ros.h
 -
 turtlesim/Pose.h
-/home/AzureUser/hcq/ROS/catkin_wp/src/learning_topic/src/turtlesim/Pose.h
+/home/hcq/github/ROS/catkin_wp/src/learning_topic/src/turtlesim/Pose.h
 
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h

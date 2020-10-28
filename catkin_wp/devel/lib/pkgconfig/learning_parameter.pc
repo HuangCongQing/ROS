@@ -1,0 +1,8 @@
+prefix=/home/hcq/github/ROS/catkin_wp/devel
+
+Name: learning_parameter
+Description: Description of learning_parameter
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,2 +1,2 @@
-learning_topic:test_pkg
--DCATKIN_DEVEL_PREFIX=/home/AzureUser/hcq/ROS/catkin_wp/devel -DCMAKE_INSTALL_PREFIX=/home/AzureUser/hcq/ROS/catkin_wp/install -G Unix Makefiles
+learning_launch:learning_parameter:learning_service:learning_tf:learning_topic:test_pkg
+-DCATKIN_DEVEL_PREFIX=/home/hcq/github/ROS/catkin_wp/devel -DCMAKE_INSTALL_PREFIX=/home/hcq/github/ROS/catkin_wp/install -G Unix Makefiles

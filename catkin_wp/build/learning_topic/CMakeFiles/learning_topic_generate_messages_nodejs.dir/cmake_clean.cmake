@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/learning_topic_generate_messages_nodejs"
-  "/home/AzureUser/hcq/ROS/catkin_wp/devel/share/gennodejs/ros/learning_topic/msg/Person.js"
+  "/home/hcq/github/ROS/catkin_wp/devel/share/gennodejs/ros/learning_topic/msg/Person.js"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,0 +1,8 @@
+prefix=/home/hcq/github/ROS/catkin_wp/install
+
+Name: learning_launch
+Description: Description of learning_launch
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

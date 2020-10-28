@@ -1,8 +1,8 @@
-# Install script for directory: /home/AzureUser/hcq/ROS/catkin_wp/src/test_pkg
+# Install script for directory: /home/hcq/github/ROS/catkin_wp/src/test_pkg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/AzureUser/hcq/ROS/catkin_wp/install")
+  set(CMAKE_INSTALL_PREFIX "/home/hcq/github/ROS/catkin_wp/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/AzureUser/hcq/ROS/catkin_wp/build/test_pkg/catkin_generated/installspace/test_pkg.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/hcq/github/ROS/catkin_wp/build/test_pkg/catkin_generated/installspace/test_pkg.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_pkg/cmake" TYPE FILE FILES
-    "/home/AzureUser/hcq/ROS/catkin_wp/build/test_pkg/catkin_generated/installspace/test_pkgConfig.cmake"
-    "/home/AzureUser/hcq/ROS/catkin_wp/build/test_pkg/catkin_generated/installspace/test_pkgConfig-version.cmake"
+    "/home/hcq/github/ROS/catkin_wp/build/test_pkg/catkin_generated/installspace/test_pkgConfig.cmake"
+    "/home/hcq/github/ROS/catkin_wp/build/test_pkg/catkin_generated/installspace/test_pkgConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_pkg" TYPE FILE FILES "/home/AzureUser/hcq/ROS/catkin_wp/src/test_pkg/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_pkg" TYPE FILE FILES "/home/hcq/github/ROS/catkin_wp/src/test_pkg/package.xml")
 endif()
 

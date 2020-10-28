@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/AzureUser/hcq/ROS/catkin_wp/src/learning_topic/src/velocity_publisher.cpp
+/home/hcq/github/ROS/catkin_wp/src/learning_topic/src/velocity_publisher.cpp
 ros/ros.h
 -
 geometry_msgs/Twist.h

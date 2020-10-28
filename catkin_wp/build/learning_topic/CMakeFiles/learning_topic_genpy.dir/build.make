@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/AzureUser/hcq/ROS/catkin_wp/src
+CMAKE_SOURCE_DIR = /home/hcq/github/ROS/catkin_wp/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/AzureUser/hcq/ROS/catkin_wp/build
+CMAKE_BINARY_DIR = /home/hcq/github/ROS/catkin_wp/build
 
 # Utility rule file for learning_topic_genpy.
 
@@ -63,10 +63,10 @@ learning_topic/CMakeFiles/learning_topic_genpy.dir/build: learning_topic_genpy
 .PHONY : learning_topic/CMakeFiles/learning_topic_genpy.dir/build
 
 learning_topic/CMakeFiles/learning_topic_genpy.dir/clean:
-	cd /home/AzureUser/hcq/ROS/catkin_wp/build/learning_topic && $(CMAKE_COMMAND) -P CMakeFiles/learning_topic_genpy.dir/cmake_clean.cmake
+	cd /home/hcq/github/ROS/catkin_wp/build/learning_topic && $(CMAKE_COMMAND) -P CMakeFiles/learning_topic_genpy.dir/cmake_clean.cmake
 .PHONY : learning_topic/CMakeFiles/learning_topic_genpy.dir/clean
 
 learning_topic/CMakeFiles/learning_topic_genpy.dir/depend:
-	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/AzureUser/hcq/ROS/catkin_wp/src /home/AzureUser/hcq/ROS/catkin_wp/src/learning_topic /home/AzureUser/hcq/ROS/catkin_wp/build /home/AzureUser/hcq/ROS/catkin_wp/build/learning_topic /home/AzureUser/hcq/ROS/catkin_wp/build/learning_topic/CMakeFiles/learning_topic_genpy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hcq/github/ROS/catkin_wp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hcq/github/ROS/catkin_wp/src /home/hcq/github/ROS/catkin_wp/src/learning_topic /home/hcq/github/ROS/catkin_wp/build /home/hcq/github/ROS/catkin_wp/build/learning_topic /home/hcq/github/ROS/catkin_wp/build/learning_topic/CMakeFiles/learning_topic_genpy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : learning_topic/CMakeFiles/learning_topic_genpy.dir/depend
 

@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/AzureUser/hcq/ROS/catkin_wp/devel/setup.sh
+    local-name: /home/hcq/github/ROS/catkin_wp/devel/setup.sh

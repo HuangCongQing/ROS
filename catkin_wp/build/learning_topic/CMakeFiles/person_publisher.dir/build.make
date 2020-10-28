@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/AzureUser/hcq/ROS/catkin_wp/src
+CMAKE_SOURCE_DIR = /home/hcq/github/ROS/catkin_wp/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/AzureUser/hcq/ROS/catkin_wp/build
+CMAKE_BINARY_DIR = /home/hcq/github/ROS/catkin_wp/build
 
 # Include any dependencies generated for this target.
 include learning_topic/CMakeFiles/person_publisher.dir/depend.make
@@ -58,17 +58,17 @@ include learning_topic/CMakeFiles/person_publisher.dir/progress.make
 include learning_topic/CMakeFiles/person_publisher.dir/flags.make
 
 learning_topic/CMakeFiles/person_publisher.dir/src/person_publisher.cpp.o: learning_topic/CMakeFiles/person_publisher.dir/flags.make
-learning_topic/CMakeFiles/person_publisher.dir/src/person_publisher.cpp.o: /home/AzureUser/hcq/ROS/catkin_wp/src/learning_topic/src/person_publisher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object learning_topic/CMakeFiles/person_publisher.dir/src/person_publisher.cpp.o"
-	cd /home/AzureUser/hcq/ROS/catkin_wp/build/learning_topic && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/person_publisher.dir/src/person_publisher.cpp.o -c /home/AzureUser/hcq/ROS/catkin_wp/src/learning_topic/src/person_publisher.cpp
+learning_topic/CMakeFiles/person_publisher.dir/src/person_publisher.cpp.o: /home/hcq/github/ROS/catkin_wp/src/learning_topic/src/person_publisher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hcq/github/ROS/catkin_wp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object learning_topic/CMakeFiles/person_publisher.dir/src/person_publisher.cpp.o"
+	cd /home/hcq/github/ROS/catkin_wp/build/learning_topic && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/person_publisher.dir/src/person_publisher.cpp.o -c /home/hcq/github/ROS/catkin_wp/src/learning_topic/src/person_publisher.cpp
 
 learning_topic/CMakeFiles/person_publisher.dir/src/person_publisher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/person_publisher.dir/src/person_publisher.cpp.i"
-	cd /home/AzureUser/hcq/ROS/catkin_wp/build/learning_topic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/AzureUser/hcq/ROS/catkin_wp/src/learning_topic/src/person_publisher.cpp > CMakeFiles/person_publisher.dir/src/person_publisher.cpp.i
+	cd /home/hcq/github/ROS/catkin_wp/build/learning_topic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hcq/github/ROS/catkin_wp/src/learning_topic/src/person_publisher.cpp > CMakeFiles/person_publisher.dir/src/person_publisher.cpp.i
 
 learning_topic/CMakeFiles/person_publisher.dir/src/person_publisher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/person_publisher.dir/src/person_publisher.cpp.s"
-	cd /home/AzureUser/hcq/ROS/catkin_wp/build/learning_topic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/AzureUser/hcq/ROS/catkin_wp/src/learning_topic/src/person_publisher.cpp -o CMakeFiles/person_publisher.dir/src/person_publisher.cpp.s
+	cd /home/hcq/github/ROS/catkin_wp/build/learning_topic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hcq/github/ROS/catkin_wp/src/learning_topic/src/person_publisher.cpp -o CMakeFiles/person_publisher.dir/src/person_publisher.cpp.s
 
 learning_topic/CMakeFiles/person_publisher.dir/src/person_publisher.cpp.o.requires:
 
@@ -88,32 +88,32 @@ person_publisher_OBJECTS = \
 # External object files for target person_publisher
 person_publisher_EXTERNAL_OBJECTS =
 
-/home/AzureUser/hcq/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: learning_topic/CMakeFiles/person_publisher.dir/src/person_publisher.cpp.o
-/home/AzureUser/hcq/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: learning_topic/CMakeFiles/person_publisher.dir/build.make
-/home/AzureUser/hcq/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /opt/ros/melodic/lib/libroscpp.so
-/home/AzureUser/hcq/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/AzureUser/hcq/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /opt/ros/melodic/lib/librosconsole.so
-/home/AzureUser/hcq/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/AzureUser/hcq/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/AzureUser/hcq/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/AzureUser/hcq/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/AzureUser/hcq/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/AzureUser/hcq/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/AzureUser/hcq/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /opt/ros/melodic/lib/librostime.so
-/home/AzureUser/hcq/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /opt/ros/melodic/lib/libcpp_common.so
-/home/AzureUser/hcq/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/AzureUser/hcq/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/AzureUser/hcq/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/AzureUser/hcq/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/AzureUser/hcq/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/AzureUser/hcq/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/AzureUser/hcq/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/AzureUser/hcq/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: learning_topic/CMakeFiles/person_publisher.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/AzureUser/hcq/ROS/catkin_wp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/AzureUser/hcq/ROS/catkin_wp/devel/lib/learning_topic/person_publisher"
-	cd /home/AzureUser/hcq/ROS/catkin_wp/build/learning_topic && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/person_publisher.dir/link.txt --verbose=$(VERBOSE)
+/home/hcq/github/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: learning_topic/CMakeFiles/person_publisher.dir/src/person_publisher.cpp.o
+/home/hcq/github/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: learning_topic/CMakeFiles/person_publisher.dir/build.make
+/home/hcq/github/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /opt/ros/melodic/lib/libroscpp.so
+/home/hcq/github/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/hcq/github/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /opt/ros/melodic/lib/librosconsole.so
+/home/hcq/github/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/hcq/github/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/hcq/github/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/hcq/github/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/hcq/github/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/hcq/github/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/hcq/github/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /opt/ros/melodic/lib/librostime.so
+/home/hcq/github/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /opt/ros/melodic/lib/libcpp_common.so
+/home/hcq/github/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/hcq/github/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/hcq/github/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/hcq/github/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/hcq/github/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/hcq/github/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/hcq/github/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/hcq/github/ROS/catkin_wp/devel/lib/learning_topic/person_publisher: learning_topic/CMakeFiles/person_publisher.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hcq/github/ROS/catkin_wp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/hcq/github/ROS/catkin_wp/devel/lib/learning_topic/person_publisher"
+	cd /home/hcq/github/ROS/catkin_wp/build/learning_topic && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/person_publisher.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-learning_topic/CMakeFiles/person_publisher.dir/build: /home/AzureUser/hcq/ROS/catkin_wp/devel/lib/learning_topic/person_publisher
+learning_topic/CMakeFiles/person_publisher.dir/build: /home/hcq/github/ROS/catkin_wp/devel/lib/learning_topic/person_publisher
 
 .PHONY : learning_topic/CMakeFiles/person_publisher.dir/build
 
@@ -122,10 +122,10 @@ learning_topic/CMakeFiles/person_publisher.dir/requires: learning_topic/CMakeFil
 .PHONY : learning_topic/CMakeFiles/person_publisher.dir/requires
 
 learning_topic/CMakeFiles/person_publisher.dir/clean:
-	cd /home/AzureUser/hcq/ROS/catkin_wp/build/learning_topic && $(CMAKE_COMMAND) -P CMakeFiles/person_publisher.dir/cmake_clean.cmake
+	cd /home/hcq/github/ROS/catkin_wp/build/learning_topic && $(CMAKE_COMMAND) -P CMakeFiles/person_publisher.dir/cmake_clean.cmake
 .PHONY : learning_topic/CMakeFiles/person_publisher.dir/clean
 
 learning_topic/CMakeFiles/person_publisher.dir/depend:
-	cd /home/AzureUser/hcq/ROS/catkin_wp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/AzureUser/hcq/ROS/catkin_wp/src /home/AzureUser/hcq/ROS/catkin_wp/src/learning_topic /home/AzureUser/hcq/ROS/catkin_wp/build /home/AzureUser/hcq/ROS/catkin_wp/build/learning_topic /home/AzureUser/hcq/ROS/catkin_wp/build/learning_topic/CMakeFiles/person_publisher.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hcq/github/ROS/catkin_wp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hcq/github/ROS/catkin_wp/src /home/hcq/github/ROS/catkin_wp/src/learning_topic /home/hcq/github/ROS/catkin_wp/build /home/hcq/github/ROS/catkin_wp/build/learning_topic /home/hcq/github/ROS/catkin_wp/build/learning_topic/CMakeFiles/person_publisher.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : learning_topic/CMakeFiles/person_publisher.dir/depend
 
