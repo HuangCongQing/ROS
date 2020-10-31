@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Date: 2019-04-16 15:26:41
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2020-10-31 12:25:04
+ * @LastEditTime: 2020-10-31 12:44:39
 -->
 # ROS
 机器人操作系统@[双愚](https://github.com/HuangCongQing/ROS)
@@ -22,7 +22,7 @@ catkin_init_workspace
 
 // 编译（需要回到工作空间catkin_wp）
 cd ..
-catkin_make  // 产生build和devel文件夹
+catkin_make  // 产生build和devel文件夹（类似cmake）
 catkin_make install // 就会有install文件夹
 
 //设置环境变量
@@ -39,7 +39,7 @@ catkin_create_pkg test_pkg std_msgs roscpp rospy
 
 // 编译功能包(回到目录catkin_ws)
 catkin_make
-// 设置环境变量(能让系统找到我们的工作空间和功能包)
+// 设置环境变量(能让系统找到我们的工作空间和功能包) 此命令只在当前终端生效
 source devel/setup.bash
 
 
