@@ -1,8 +1,0 @@
-prefix=/home/hcq/github/ROS/catkin_wp/install
-
-Name: learning_service
-Description: Description of learning_service
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: geometry_msgs roscpp rospy std_msgs turtlesim message_runtime
