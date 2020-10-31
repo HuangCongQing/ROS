@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Date: 2019-04-16 15:26:41
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2020-10-31 12:44:39
+ * @LastEditTime: 2020-10-31 15:53:45
 -->
 # ROS
 机器人操作系统@[双愚](https://github.com/HuangCongQing/ROS)
@@ -86,6 +86,17 @@ rosrun turtlesim turtle_teleop_key
 * [18.tf坐标系广播与监听的编程实现](catkin_wp/src/learning_tf)
 * [19.launch启动文件的使用方法](catkin_wp/src/learning_launch)
 
+#### 2 机器人操作系统ROS理论与实践【9讲】
+
+* [1：认识ROS](机器人操作系统ROS理论与实践/1：认识ROS)
+* [2：ROS基础](机器人操作系统ROS理论与实践/2：ROS基础)
+* [3：机器人系统设计](机器人操作系统ROS理论与实践/3：机器人系统设计)
+* [4：机器人仿真](机器人操作系统ROS理论与实践/4：机器人仿真)
+* [5：机器人感知](机器人操作系统ROS理论与实践/5：机器人感知)
+* [6：机器人SLAM与自主导航](机器人操作系统ROS理论与实践/6：机器人SLAM与自主导航)
+* [7：ROS理论与实践Moveit](机器人操作系统ROS理论与实践/7：ROS理论与实践Moveit)
+* [8：ROS机器人综合应用](机器人操作系统ROS理论与实践/8：ROS机器人综合应用)
+* [9：ROS2.0](机器人操作系统ROS理论与实践/9：ROS2.0)
 
 ## Reference
 ### 书籍：《ROS机器人开发实践_胡春旭》
