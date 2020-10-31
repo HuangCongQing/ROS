@@ -3,5 +3,6 @@
         "xlocale": "cpp",
         "xstring": "cpp",
         "xutility": "cpp"
-    }
+    },
+    "cmake.configureOnOpen": true
 }
