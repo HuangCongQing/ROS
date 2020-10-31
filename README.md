@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Date: 2019-04-16 15:26:41
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2020-10-31 12:21:20
+ * @LastEditTime: 2020-10-31 12:23:39
 -->
 # ROS
 机器人操作系统@[双愚](https://github.com/HuangCongQing/ROS)
@@ -73,7 +73,7 @@ rosrun turtlesim turtle_teleop_key
 ![](https://cdn.nlark.com/yuque/0/2020/png/232596/1583747169660-fe70ab3f-7927-45f2-8d8a-651c0d365c41.png)
 
 #### 1 古月 · ROS入门21讲
-> code path: catkin_wp/src
+> 代码路径: **[catkin_wp/src](catkin_wp/src)**
 
 * [09.创建工作空间与功能包](catkin_wp/src/test_pkg)
 * [10-11 发布者订阅者的编程实现](catkin_wp/src/learning_topic)
