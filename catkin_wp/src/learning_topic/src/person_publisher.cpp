@@ -38,7 +38,7 @@ int main(int argc, char **argv)
        	ROS_INFO("Publish Person Info: name:%s  age:%d  sex:%d", 
 				  person_msg.name.c_str(), person_msg.age, person_msg.sex);
 
-        // 按照循环频率延时
+        // 按照循环频率延时, 减小CPU占用率，否则飚高
         loop_rate.sleep();
     }
 
