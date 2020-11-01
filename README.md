@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Date: 2019-04-16 15:26:41
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2020-10-31 15:53:45
+ * @LastEditTime: 2020-11-01 10:31:03
 -->
 # ROS
 机器人操作系统@[双愚](https://github.com/HuangCongQing/ROS)
@@ -98,6 +98,23 @@ rosrun turtlesim turtle_teleop_key
 * [8：ROS机器人综合应用](机器人操作系统ROS理论与实践/8：ROS机器人综合应用)
 * [9：ROS2.0](机器人操作系统ROS理论与实践/9：ROS2.0)
 
+
+## 组织结构
+
+一个workspace下面可以有多个package，但是workspace有自己组织package的方式。每一个package都是workspace当中的代码包，应该存放在src下面。那么，组织结构如下所示：
+
+```
+---workspace
+|   |---src
+|      |---package_1
+|         |---CMakeLists.txt
+|         |---src
+|             |---xxx.cpp
+       |---package_2
+...
+|
+|      |---package_n
+```
 ## Reference
 ### 书籍：《ROS机器人开发实践_胡春旭》
 * 《ROS机器人开发实践》源码：https://github.com/huchunxu/ros_exploring
