@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Date: 2019-04-16 15:26:41
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2020-11-01 10:31:03
+ * @LastEditTime: 2020-11-01 11:10:11
 -->
 # ROS
 机器人操作系统@[双愚](https://github.com/HuangCongQing/ROS)
@@ -74,6 +74,7 @@ rosrun turtlesim turtle_teleop_key
 
 #### 1 古月 · ROS入门21讲
 > 代码路径: **[catkin_wp/src](catkin_wp/src)**
+> PDF路径: **[slides-ros_21_tutorials](slides-ros_21_tutorials)**
 
 * [09.创建工作空间与功能包](catkin_wp/src/test_pkg)
 * [10-11 发布者订阅者的编程实现](catkin_wp/src/learning_topic)
@@ -87,6 +88,9 @@ rosrun turtlesim turtle_teleop_key
 * [19.launch启动文件的使用方法](catkin_wp/src/learning_launch)
 
 #### 2 机器人操作系统ROS理论与实践【9讲】
+
+> 代码路径: **[catkin_ROS9/src](catkin_ROS9/src)**
+> PDF路径: **[机器人操作系统ROS理论与实践](机器人操作系统ROS理论与实践)**
 
 * [1：认识ROS](机器人操作系统ROS理论与实践/1：认识ROS)
 * [2：ROS基础](机器人操作系统ROS理论与实践/2：ROS基础)
