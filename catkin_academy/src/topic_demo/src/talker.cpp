@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Email: 1756260160@qq.com
  * @Date: 2020-11-02 15:48:51
- * @LastEditTime: 2020-11-02 16:53:34
+ * @LastEditTime: 2020-11-02 17:13:13
  * @FilePath: /ROS/catkin_academy/src/topic_demo/src/talker.cpp
  */
 
@@ -12,7 +12,7 @@
 #include<topic_demo/gps.h> //自定义msg产生的头文件
 
 int main(int argc,  char **argv){
-    ros::init(argc, argv, "talker");   //用于解析ROS参数，第三个参数为本节点名
+    ros::init(argc, argv, "talker");   //用于解析ROS参数，第三个参数为本节点名talker
     ros::NodeHandle nh; //实例化句柄，初始化node
     topic_demo::gps msg; //自定义gps消息并初始化 
     msg.x = 1.0;
