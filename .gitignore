@@ -16,3 +16,9 @@ catkin_wp/src/object_tracking
 catkin_ROS9/build
 catkin_ROS9/devel
 catkin_ROS9/install
+
+
+#  中科院软件所-机器人操作系统入门（ROS入门教程
+catkin_academy/build
+catkin_academy/devel
+catkin_academy/install

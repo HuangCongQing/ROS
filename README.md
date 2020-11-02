@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Date: 2019-04-16 15:26:41
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2020-11-02 14:35:39
+ * @LastEditTime: 2020-11-02 14:52:14
 -->
 # ROS
 机器人操作系统@[双愚](https://github.com/HuangCongQing/ROS)
@@ -75,6 +75,7 @@ rosrun turtlesim turtle_teleop_key
 #### 1 古月 · ROS入门21讲
 > 代码路径: **[catkin_wp/src](catkin_wp/src)**
 > PDF路径: **[slides-ros_21_tutorials](slides-ros_21_tutorials)**
+>视频：https://www.bilibili.com/video/BV1zt411G7Vn
 
 * [09.创建工作空间与功能包](catkin_wp/src/test_pkg)
 * [10-11 发布者订阅者的编程实现](catkin_wp/src/learning_topic)
@@ -103,6 +104,18 @@ rosrun turtlesim turtle_teleop_key
 * [9：ROS2.0](机器人操作系统ROS理论与实践/9：ROS2.0)
 
 
+
+#### 3 中科院软件所-机器人操作系统入门（ROS入门教程)(**推荐先看，讲的更细致**)
+官方代码: https://github.com/DroidAITech/ROS-Academy-for-Beginners
+个人fork代码：https://github.com/HuangCongQing/ROS-Academy-for-Beginners
+>本地学习 代码路径: **[catkin_academy/src](catkin_academy/src)**
+>视频：https://www.bilibili.com/video/BV1mJ411R7Ni
+
+Tips： **注意不同ROS，切换到不同分支**
+* kinetic版本切换到kinetic分支
+* melodic版本切换到melodic分支
+
+
 ## ROS组织结构
 
 一个workspace下面可以有多个package，但是workspace有自己组织package的方式。每一个package都是workspace当中的代码包，应该存放在src下面。那么，组织结构如下所示：
@@ -126,8 +139,10 @@ rosrun turtlesim turtle_teleop_key
 ### 视频和代码
 * 1 古月 · ROS入门21讲
 * 2 机器人操作系统ROS理论与实践【9讲】
-
+* 3 中科院软件所-机器人操作系统入门（ROS入门教程
 #### 1 古月 · ROS入门21讲
+视频：https://www.bilibili.com/video/BV1zt411G7Vn
+
 课件：https://github.com/huchunxu/ros_21_tutorials/tree/master/docs/slides
 
 源码：https://github.com/huchunxu/ros_21_tutorials
@@ -136,3 +151,4 @@ rosrun turtlesim turtle_teleop_key
 
 #### 2 机器人操作系统ROS理论与实践【9讲】
 
+* 视频：https://www.bilibili.com/video/BV1mJ411R7Ni
