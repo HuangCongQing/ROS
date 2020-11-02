@@ -147,6 +147,12 @@ add_dependencies(talker topic_demo_generate_messages_cpp)
 #表明在编译talker前，必须先生编译完成自定义消息
 target_link_libraries(talker ${catkin_LIBRARIES}) #链接
 
+
+add_executable(listener src/listener.cpp ) #声称可执行文件listener
+add_dependencies(listener topic_demo_generate_messages_cpp)
+target_link_libraries(listener ${catkin_LIBRARIES})#链接
+
+
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use

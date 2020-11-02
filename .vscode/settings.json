@@ -2,7 +2,8 @@
     "files.associations": {
         "xlocale": "cpp",
         "xstring": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "iterator": "cpp"
     },
     "cmake.configureOnOpen": true,
     "fileheader.customMade": {
