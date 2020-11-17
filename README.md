@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Date: 2019-04-16 15:26:41
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2020-11-02 14:52:14
+ * @LastEditTime: 2020-11-17 19:13:53
 -->
 # ROS
 机器人操作系统@[双愚](https://github.com/HuangCongQing/ROS)
@@ -105,7 +105,7 @@ rosrun turtlesim turtle_teleop_key
 
 
 
-#### 3 中科院软件所-机器人操作系统入门（ROS入门教程)(**推荐先看，讲的更细致**)
+#### 3 中科院软件所-机器人操作系统入门（ROS入门教程)(**推荐先看，讲的更细致**) 【推荐入门先看】
 官方代码: https://github.com/DroidAITech/ROS-Academy-for-Beginners
 个人fork代码：https://github.com/HuangCongQing/ROS-Academy-for-Beginners
 >本地学习 代码路径: **[catkin_academy/src](catkin_academy/src)**
