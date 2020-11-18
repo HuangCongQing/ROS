@@ -1,10 +1,10 @@
 /*
- * @Description: 圆
+ * @Description: 圆（走动的）  参考：https://github.com/HaoQChen/show_trajectory/blob/master/src/path.cpp
  * @Author: HCQ
  * @Company(School): UCAS
  * @Email: 1756260160@qq.com
  * @Date: 2020-11-18 21:05:09
- * @LastEditTime: 2020-11-18 21:13:10
+ * @LastEditTime: 2020-11-18 21:14:19
  * @FilePath: /ROS/catkin_wp/src/using_markers/src/3path.cpp
  */
 #include <ros/ros.h>
