@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Date: 2019-04-16 15:26:41
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2020-11-17 19:13:53
+ * @LastEditTime: 2020-11-18 10:34:50
 -->
 # ROS
 机器人操作系统@[双愚](https://github.com/HuangCongQing/ROS)
@@ -51,7 +51,8 @@ rosrun turtlesim turtle_teleop_key
 
 ## ROS介绍
 
->作者：Morgan  其博士生导师：吴恩达
+>作者：Morgan  其博士生导师：吴恩达!
+
 >别人已经造好轮子，集成起来，提高软件复用率。
 (有的组织擅长建模，OR导航 OR物理识别，ROS就可以把这些组织都连接起来，帮助他们建立一种相互合作的的高效的方式，在已有成果做更多东西。)
 
