@@ -134,11 +134,14 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/using_markers_node.cpp)
 
-add_executable(basic_shapes src/basic_shapes.cpp)
-target_link_libraries(basic_shapes ${catkin_LIBRARIES})
+add_executable(1basic_shapes src/1basic_shapes.cpp)
+target_link_libraries(1basic_shapes ${catkin_LIBRARIES})
 
-add_executable(points_and_lines src/points_and_lines.cpp)
-target_link_libraries(points_and_lines ${catkin_LIBRARIES})
+add_executable(2points_and_lines src/2points_and_lines.cpp)
+target_link_libraries(2points_and_lines ${catkin_LIBRARIES})
+
+add_executable(3path src/3path.cpp)
+target_link_libraries(3path ${catkin_LIBRARIES})
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
