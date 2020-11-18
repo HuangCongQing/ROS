@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Email: 1756260160@qq.com
  * @Date: 2020-11-18 21:05:09
- * @LastEditTime: 2020-11-18 21:11:58
+ * @LastEditTime: 2020-11-18 21:13:10
  * @FilePath: /ROS/catkin_wp/src/using_markers/src/3path.cpp
  */
 #include <ros/ros.h>
@@ -24,7 +24,7 @@ main (int argc, char **argv)
 	ros::Rate loop_rate(1);
 	while (ros::ok())
 	{
-		nav_msgs::Path path;
+		nav_msgs::Path path;  // path
 		//nav_msgs::Path path;
 		path.header.stamp=ros::Time::now();
 		path.header.frame_id="/my_frame";
@@ -33,7 +33,7 @@ main (int argc, char **argv)
 			float y = 5 * sin(f + i / 100.0f * 2 * M_PI);
 			float x = 5 * cos(f + i / 100.0f * 2 * M_PI);
 
-			geometry_msgs::PoseStamped this_pose_stamped;
+			geometry_msgs::PoseStamped this_pose_stamped; // PoseStamped
 			this_pose_stamped.pose.position.x = x;
 			this_pose_stamped.pose.position.y = y;
 
@@ -46,7 +46,7 @@ main (int argc, char **argv)
 			this_pose_stamped.header.stamp=ros::Time::now();;
 			this_pose_stamped.header.frame_id="/my_frame";
 
-			path.poses.push_back(this_pose_stamped);
+			path.poses.push_back(this_pose_stamped);  // push_back
 		}
 		path_pub.publish(path);
 		//ros::spinOnce();               // check for incoming messages
