@@ -1,9 +1,12 @@
 {
     "files.associations": {
+        "*.py": "python",
         "xlocale": "cpp",
         "xstring": "cpp",
         "xutility": "cpp",
-        "iterator": "cpp"
+        "iterator": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp"
     },
     "cmake.configureOnOpen": true,
     "fileheader.customMade": {

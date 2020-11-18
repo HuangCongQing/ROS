@@ -6,7 +6,7 @@
  * @Company(School): UCAS
  * @Email: 1756260160@qq.com
  * @Date: 2020-11-18 16:48:13
- * @LastEditTime: 2020-11-18 17:12:11
+ * @LastEditTime: 2020-11-18 17:35:04
  * @FilePath: /ROS/catkin_wp/src/using_markers/src/basic_shapes.cpp
  */
 #include "ros/ros.h"
@@ -31,7 +31,8 @@ int main(int argc,char** argv)
         //设置此标记的namespace和id。这用于创建唯一的id
         //任何使用相同namespace和id发送的标记都将覆盖旧标记
         marker.ns = "basic_shapes";
-        marker.id = 0;
+        marker.id = 0;  // 每次获取到机器人的位姿后，就在对应点发布一个标志，然后将lifetime设为0，也就是无限久地保存～～
+        // 但是需要注意一点，让ns或者id变量每次都不一样，否则ns和id一直一样的话，后面的操作会覆盖前面的操作，也就一直只能看到最新的了。建议每次让id+=1。
         //设置the marker type。最初是CUBE，并且在那个和SPHERE，ARROW和CYLINDER之间循环
         marker.type = shape;
         // //设置marker action。选项包括ADD，DELETE和new
