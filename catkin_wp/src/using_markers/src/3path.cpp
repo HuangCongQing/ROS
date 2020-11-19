@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Email: 1756260160@qq.com
  * @Date: 2020-11-18 21:05:09
- * @LastEditTime: 2020-11-18 21:14:19
+ * @LastEditTime: 2020-11-19 14:22:50
  * @FilePath: /ROS/catkin_wp/src/using_markers/src/3path.cpp
  */
 #include <ros/ros.h>
@@ -48,7 +48,7 @@ main (int argc, char **argv)
 
 			path.poses.push_back(this_pose_stamped);  // push_back
 		}
-		path_pub.publish(path);
+		path_pub.publish(path);  // 发布
 		//ros::spinOnce();               // check for incoming messages
 		loop_rate.sleep();
 		f += 0.04;

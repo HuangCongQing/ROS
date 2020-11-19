@@ -6,8 +6,8 @@
  * @Company(School): UCAS
  * @Email: 1756260160@qq.com
  * @Date: 2020-11-18 16:48:13
- * @LastEditTime: 2020-11-18 17:35:04
- * @FilePath: /ROS/catkin_wp/src/using_markers/src/basic_shapes.cpp
+ * @LastEditTime: 2020-11-19 14:15:33
+ * @FilePath: /ROS/catkin_wp/src/using_markers/src/1basic_shapes.cpp
  */
 #include "ros/ros.h"
 #include "visualization_msgs/Marker.h"
@@ -41,7 +41,7 @@ int main(int argc,char** argv)
         marker.pose.position.x = 0;
         marker.pose.position.y = 0;
         marker.pose.position.z = 0;
-        marker.pose.orientation.x = 0.0;
+        marker.pose.orientation.x = 0.0;   // ?
         marker.pose.orientation.y = 0.0;
         marker.pose.orientation.z = 0.0;
         marker.pose.orientation.w = 1.0;
