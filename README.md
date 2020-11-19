@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Date: 2019-04-16 15:26:41
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2020-11-18 17:13:30
+ * @LastEditTime: 2020-11-19 14:28:39
 -->
 # ROS
 机器人操作系统@[双愚](https://github.com/HuangCongQing/ROS)
@@ -121,6 +121,16 @@ Tips： **注意不同ROS，切换到不同分支**
 
 code:
 * [catkin_wp/src/using_markers](catkin_wp/src/using_markers)
+
+
+```shell
+
+rosrun using_markers 1basic_shapes
+rosrun using_markers 2points_and_lines
+rosrun using_markers 3path
+
+
+```
 
 
 ## ROS组织结构

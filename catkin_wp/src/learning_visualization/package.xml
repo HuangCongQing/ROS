@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>using_markers</name>
+  <name>learning_visualization</name>  <!-- 一定要和文件夹对应 -->
   <version>0.0.0</version>
   <description>The using_markers package</description>
 
