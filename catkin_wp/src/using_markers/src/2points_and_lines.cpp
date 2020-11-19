@@ -6,8 +6,8 @@
  * @Company(School): UCAS
  * @Email: 1756260160@qq.com
  * @Date: 2020-11-18 17:28:55
- * @LastEditTime: 2020-11-18 21:02:44
- * @FilePath: /ROS/catkin_wp/src/using_markers/src/points_and_lines.cpp
+ * @LastEditTime: 2020-11-19 14:13:34
+ * @FilePath: /ROS/catkin_wp/src/using_markers/src/2points_and_lines.cpp
  */
 #include <ros/ros.h>
 #include <visualization_msgs/Marker.h>
@@ -39,11 +39,11 @@ int main( int argc, char** argv )
     line_strip.id = 1;
     line_list.id = 2;
 
+    // 三个markers分配了三个不同的ID。使用points_and_lines命名空间可确保它们不会与其他r broadcasters广播公司发生冲突。
 
-
-    points.type = visualization_msgs::Marker::POINTS;
-    line_strip.type = visualization_msgs::Marker::LINE_STRIP;
-    line_list.type = visualization_msgs::Marker::LINE_LIST;
+    points.type = visualization_msgs::Marker::POINTS;  // 点
+    line_strip.type = visualization_msgs::Marker::LINE_STRIP;   // 线
+    line_list.type = visualization_msgs::Marker::LINE_LIST;  // 线段
 
 
 
