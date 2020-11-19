@@ -6,11 +6,12 @@
  * @Company(School): UCAS
  * @Email: 1756260160@qq.com
  * @Date: 2020-11-18 16:48:13
- * @LastEditTime: 2020-11-19 14:15:33
+ * @LastEditTime: 2020-11-19 14:54:10
  * @FilePath: /ROS/catkin_wp/src/learning_visualization/src/1basic_shapes.cpp
  */
 #include "ros/ros.h"
 #include "visualization_msgs/Marker.h"
+#include <math.h>
 
 int main(int argc,char** argv)
 {
@@ -41,7 +42,7 @@ int main(int argc,char** argv)
         marker.pose.position.x = 0;
         marker.pose.position.y = 0;
         marker.pose.position.z = 0;
-        marker.pose.orientation.x = 0.0;   // ?
+        marker.pose.orientation.x = M_PI;   // π  3.1415   Roll：两侧摆动
         marker.pose.orientation.y = 0.0;
         marker.pose.orientation.z = 0.0;
         marker.pose.orientation.w = 1.0;
