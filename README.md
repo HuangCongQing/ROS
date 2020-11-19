@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Date: 2019-04-16 15:26:41
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2020-11-19 14:28:39
+ * @LastEditTime: 2020-11-19 14:36:15
 -->
 # ROS
 机器人操作系统@[双愚](https://github.com/HuangCongQing/ROS)
@@ -120,14 +120,14 @@ Tips： **注意不同ROS，切换到不同分支**
 #### 4 可视化（Visualization）
 
 code:
-* [catkin_wp/src/using_markers](catkin_wp/src/using_markers)
+* [catkin_wp/src/learning_visualization](catkin_wp/src/learning_visualization)
 
 
 ```shell
 
-rosrun using_markers 1basic_shapes
-rosrun using_markers 2points_and_lines
-rosrun using_markers 3path
+rosrun learning_visualization 1basic_shapes
+rosrun learning_visualization 2points_and_lines
+rosrun learning_visualization 3path
 
 
 ```

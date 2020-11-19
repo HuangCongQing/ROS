@@ -2,7 +2,7 @@
 <package format="2">
   <name>learning_visualization</name>  <!-- 一定要和文件夹对应 -->
   <version>0.0.0</version>
-  <description>The using_markers package</description>
+  <description>The learning_visualization package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
@@ -19,7 +19,7 @@
   <!-- Url tags are optional, but multiple are allowed, one per tag -->
   <!-- Optional attribute type can be: website, bugtracker, or repository -->
   <!-- Example: -->
-  <!-- <url type="website">http://wiki.ros.org/using_markers</url> -->
+  <!-- <url type="website">http://wiki.ros.org/learning_visualization</url> -->
 
 
   <!-- Author tags are optional, multiple are allowed, one per tag -->
