@@ -143,6 +143,9 @@ target_link_libraries(2points_and_lines ${catkin_LIBRARIES})
 add_executable(3path src/3path.cpp)
 target_link_libraries(3path ${catkin_LIBRARIES})
 
+add_executable(show_text src/show_text.cpp)
+target_link_libraries(show_text ${catkin_LIBRARIES})
+
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
