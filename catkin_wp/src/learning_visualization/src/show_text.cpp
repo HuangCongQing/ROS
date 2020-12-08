@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Email: 1756260160@qq.com
  * @Date: 2020-12-08 16:54:26
- * @LastEditTime: 2020-12-08 17:19:39
+ * @LastEditTime: 2020-12-08 18:31:40
  * @FilePath: /ROS/catkin_wp/src/learning_visualization/src/show_text.cpp
  */
 #include <ros/ros.h>
@@ -39,7 +39,7 @@ int main( int argc, char** argv )
         pose.position.x =  (float)(k++)/10;  // 变换位置
         pose.position.y =  0;
         pose.position.z =0;
-        marker.text= "blablabla";  // 文字输入==========================================================================
+        marker.text= "blablabla" + to_string(k) ;  // 文字输入  不支持中文==========================================================================
         // ostringstream str;
         // str<<k;   
         // marker.text=str.str();  // 文字输入
