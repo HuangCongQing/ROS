@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Email: 1756260160@qq.com
  * @Date: 2020-12-08 16:54:26
- * @LastEditTime: 2020-12-08 17:03:42
+ * @LastEditTime: 2020-12-08 17:17:12
  * @FilePath: /ROS/catkin_wp/src/learning_visualization/src/show_text.cpp
  */
 #include <ros/ros.h>
@@ -15,7 +15,7 @@ int main( int argc, char** argv )
 {
     ros::init(argc, argv, "showline");
     ros::NodeHandle n;
-    ros::Publisher markerPub = n.advertise<visualization_msgs::Marker>("TEXT_VIEW_FACING", 10);
+    ros::Publisher markerPub = n.advertise<visualization_msgs::Marker>("TEXT_VIEW_FACING", 10); // 话题名：TEXT_VIEW_FACING
     visualization_msgs::Marker marker;
     marker.header.frame_id="/odom";
     marker.header.stamp = ros::Time::now();
@@ -23,7 +23,7 @@ int main( int argc, char** argv )
     marker.action = visualization_msgs::Marker::ADD;
     marker.pose.orientation.w = 1.0;
     marker.id =0;
-    marker.type = visualization_msgs::Marker::TEXT_VIEW_FACING;
+    marker.type = visualization_msgs::Marker::TEXT_VIEW_FACING;  // type类型
 
     marker.scale.z = 0.2;
     marker.color.b = 0;
@@ -36,12 +36,13 @@ int main( int argc, char** argv )
     while(1)
     {
         geometry_msgs::Pose pose;
-        pose.position.x =  (float)(k++)/10;
+        pose.position.x =  (float)(k++)/10;  // 变换位置
         pose.position.y =  0;
         pose.position.z =0;
-        ostringstream str;
-        str<<k;
-        marker.text=str.str();
+        marker.text= "blablabla";  // 文字输入
+        // ostringstream str;
+        // str<<k;   
+        // marker.text=str.str();  // 文字输入
         marker.pose=pose;
         markerPub.publish(marker);
         cout<<"k="<<k<<endl;
