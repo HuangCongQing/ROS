@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Date: 2019-04-16 15:26:41
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2020-11-19 14:36:15
+ * @LastEditTime: 2020-12-29 15:05:35
 -->
 # ROS
 机器人操作系统@[双愚](https://github.com/HuangCongQing/ROS)
@@ -13,7 +13,7 @@
 `/home/AzureUser/hcq/ROS`
 
 * ROS & SLAM个人笔记：https://www.yuque.com/huangzhongqing/ld627o
-
+* 创建工作空间与功能包详解：https://www.yuque.com/huangzhongqing/ld627o/zr0eix
 ## 编译和运行
 ```
 // 1 设置工作空间
@@ -42,6 +42,9 @@ catkin_make
 // 设置环境变量(能让系统找到我们的工作空间和功能包) 此命令只在当前终端生效
 source devel/setup.bash
 
+通过设置gedit ~/.zshrc，不用每次都source
+gedit ~/.zshrc
+source ~/.zshrc
 
 // 运行
 roscore //启动ROS master
