@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Date: 2019-04-16 15:26:41
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2020-12-29 15:05:35
+ * @LastEditTime: 2020-12-29 15:06:55
 -->
 # ROS
 机器人操作系统@[双愚](https://github.com/HuangCongQing/ROS)
@@ -27,6 +27,10 @@ catkin_make install // 就会有install文件夹
 
 //设置环境变量
 source devel/setup.bash  // 不同shell，不同哦.sh  .zsh
+
+通过设置gedit ~/.zshrc，不用每次都source
+gedit ~/.zshrc
+source ~/.zshrc
 ```
 
 
