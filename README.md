@@ -25,12 +25,12 @@ cd ..
 catkin_make  // 产生build和devel文件夹（类似cmake）
 catkin_make install // 就会有install文件夹
 
-//设置环境变量
-source devel/setup.bash  // 不同shell，不同哦.sh  .zsh
+//设置环境变量（个人是zsh）
+source devel/setup.zsh  // 不同shell，不同哦.bash  .zsh
 
 通过设置gedit ~/.zshrc，不用每次都source
-gedit ~/.zshrc
-source ~/.zshrc
+gedit ~/.zshrc   或者  gedit ~/.bashrc
+source ~/.zshrc  或者 source ~/.bashrc
 ```
 
 
