@@ -175,4 +175,6 @@ rosrun learning_visualization 3path
 
 #### 2 机器人操作系统ROS理论与实践【9讲】
 
+#### 3 中科院软件所-机器人操作系统入门（ROS入门教程）
+
 * 视频：https://www.bilibili.com/video/BV1mJ411R7Ni
