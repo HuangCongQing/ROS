@@ -162,8 +162,9 @@ rosrun learning_visualization 3path
 
 ### 视频和代码
 * 1 古月 · ROS入门21讲
-* 2 机器人操作系统ROS理论与实践【9讲】
-* 3 中科院软件所-机器人操作系统入门（ROS入门教程
+* 2 中科院软件所-机器人操作系统入门（ROS入门教程
+* 3 机器人操作系统ROS理论与实践【9讲】
+
 #### 1 古月 · ROS入门21讲
 视频：https://www.bilibili.com/video/BV1zt411G7Vn
 
@@ -173,8 +174,13 @@ rosrun learning_visualization 3path
 
 * [个人代码](https://github.com/HuangCongQing/ROS/tree/master/catkin_wp/src)
 
-#### 2 机器人操作系统ROS理论与实践【9讲】
 
-#### 3 中科院软件所-机器人操作系统入门（ROS入门教程）
+
+#### 2 中科院软件所-机器人操作系统入门（ROS入门教程）
 
 * 视频：https://www.bilibili.com/video/BV1mJ411R7Ni
+
+
+#### 3 机器人操作系统ROS理论与实践【9讲】
+
+
