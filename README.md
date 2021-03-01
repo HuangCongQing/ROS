@@ -96,7 +96,16 @@ rosrun turtlesim turtle_teleop_key
 * [18.tf坐标系广播与监听的编程实现](catkin_wp/src/learning_tf)
 * [19.launch启动文件的使用方法](catkin_wp/src/learning_launch)
 
-#### 2 机器人操作系统ROS理论与实践【9讲】
+
+
+#### 2 中科院软件所-机器人操作系统入门（ROS入门教程)(**推荐先看，讲的更细致**) 【推荐入门先看】
+官方代码: https://github.com/DroidAITech/ROS-Academy-for-Beginners
+个人fork代码：https://github.com/HuangCongQing/ROS-Academy-for-Beginners
+>本地学习 代码路径: **[catkin_academy/src](catkin_academy/src)**
+>视频：https://www.bilibili.com/video/BV1mJ411R7Ni
+
+
+#### 3 机器人操作系统ROS理论与实践【9讲】
 
 > 代码路径: **[catkin_ROS9/src](catkin_ROS9/src)**
 > PDF路径: **[机器人操作系统ROS理论与实践](机器人操作系统ROS理论与实践)**
@@ -111,13 +120,6 @@ rosrun turtlesim turtle_teleop_key
 * [8：ROS机器人综合应用](机器人操作系统ROS理论与实践/8：ROS机器人综合应用)
 * [9：ROS2.0](机器人操作系统ROS理论与实践/9：ROS2.0)
 
-
-
-#### 3 中科院软件所-机器人操作系统入门（ROS入门教程)(**推荐先看，讲的更细致**) 【推荐入门先看】
-官方代码: https://github.com/DroidAITech/ROS-Academy-for-Beginners
-个人fork代码：https://github.com/HuangCongQing/ROS-Academy-for-Beginners
->本地学习 代码路径: **[catkin_academy/src](catkin_academy/src)**
->视频：https://www.bilibili.com/video/BV1mJ411R7Ni
 
 Tips： **注意不同ROS，切换到不同分支**
 * kinetic版本切换到kinetic分支
