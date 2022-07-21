@@ -14,6 +14,7 @@
 
 * ROS & SLAM个人笔记：https://www.yuque.com/huangzhongqing/ld627o
 * 创建工作空间与功能包详解：https://www.yuque.com/huangzhongqing/ld627o/zr0eix
+* **ROS2(python): https://github.com/HuangCongQing/ros2_python**
 ## 编译和运行
 ```
 // 1 设置工作空间
