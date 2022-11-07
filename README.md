@@ -15,7 +15,7 @@
 * ROS & SLAM个人笔记：https://www.yuque.com/huangzhongqing/ld627o
 * 创建工作空间与功能包详解：https://www.yuque.com/huangzhongqing/ld627o/zr0eix
 * **ROS2(python): https://github.com/HuangCongQing/ros2_python**
-* 个人制作的ros环境镜像(with rviz 界面): https://hub.docker.com/repository/docker/2015212821/ros
+* 【202210】个人制作的ros环境镜像(with rviz 界面): https://hub.docker.com/repository/docker/2015212821/ros
 
 
 
