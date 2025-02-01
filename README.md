@@ -9,8 +9,8 @@
 # ROS
 机器人操作系统@[双愚](https://github.com/HuangCongQing/ROS)
 
-* 运行环境：Ubuntu18.04 微软云服务器（AzureUser@aitraining）
-`/home/AzureUser/hcq/ROS`
+* 运行环境：Ubuntu18.04 微软云服务器（Azure）
+
 
 * ROS & SLAM个人笔记：https://www.yuque.com/huangzhongqing/ld627o
 * 创建工作空间与功能包详解：https://www.yuque.com/huangzhongqing/ld627o/zr0eix
